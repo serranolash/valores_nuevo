@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alta de Artículos - Grupo</title>    
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f8ff; /* Azul claro */
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 20vh;
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+            font-size: 24px; /* Ajusta el tamaño según tu preferencia */
+            margin-bottom: 20px;
+        }
+
+        form {
+            width: 80%; /* Ajusta el ancho del formulario según tus necesidades */
+            max-width: 800px; /* Puedes ajustar este valor según tus necesidades */
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            box-sizing: border-box;
+            margin: 0 auto; /* Centrar el formulario */
+            display: flex;
+            border: 15px solid #1941c6;
+            flex-wrap: wrap; /* Permite que los elementos se envuelvan si no caben en una sola fila */
+            justify-content: space-around; /* Espaciado uniforme entre los elementos */
+            font-size: 16px;            
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: bold;
+
+            
+        }
+
+        .form-column {
+            width: 48%; /* Ajusta el ancho de cada columna */
+            box-sizing: border-box;
+            margin: auto;
+        }
+
+        .form-column * {
+            width: 100%;
+            box-sizing: border-box;
+            margin-bottom: 10px;
+        }
+
+        input {
+            padding: 2px;
+            border: 8px solid #ccc;
+            border-radius: 8px;
+            box-sizing: border-box;
+            margin: 0.5%
+        }
+
+        button {
+            width: 25%;
+            background-color: #132dd6; /* Verde */
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 12px;
+            align-content: center;
+            align-items: center;
+        }
+
+        button:hover {
+            background-color: #8ca045; /* Verde más oscuro al pasar el mouse */
+        }
+    </style>
+</head>
+<body>
+    <h1>Alta de Artículos - Grupo Sevensport</h1>
+    <h2>Carga de Artículos</h2>
+    <p id="mensaje"></p>
+    <div id="flash-messages">
+        {% with messages = get_flashed_messages() %}
+            {% if messages %}
+                <ul class="flash-messages">
+                    {% for message in messages %}
+                        <li>{{ message }}</li>
+                    {% endfor %}
+                </ul>
+            {% endif %}
+        {% endwith %}
+    </div>
+
+    <form method="post" action="/index" class="container mt-4">
+        <div class="form-column">
+            <label for="codigo">Código:</label>
+            <input type="text" name="codigo" required>
+
+            <label for="base_de_datos">Base de Datos:</label>
+            <select name="base_de_datos" required>
+                <option value="DEPOFORT">DEPOFORT</option>
+                <option value="DEPOSEVN">DEPOSEVN</option>
+            </select>
+        </div>
+
+        <div class="form-column">
+            <label for="descripcion">Descripción:</label>
+            <input type="text" name="descripcion">
+
+            <label for="descripcion_adicional">Descripción Adicional:</label>
+            <input type="text" name="descripcion_adicional">
+        </div>
+
+        <div class="form-column">
+            <label for="no_permite_devoluciones">No Permite Devoluciones:</label>
+            <input type="checkbox" name="no_permite_devoluciones">
+
+            <label for="restringir_descuentos">Restringir Descuentos:</label>
+            <input type="checkbox" name="restringir_descuentos">
+        </div>
+
+        <div class="form-column">
+            <label for="NoPublicarEnEcommerce">No Publicar en Ecommerce:</label>
+            <input type="checkbox" name="NoPublicarEnEcommerce">
+
+            <label for="solo_promo_y_kit">Solo Promo y Kit:</label>
+            <input type="checkbox" name="solo_promo_y_kit">
+        </div>
+
+        <div class="form-column">
+            <label for="proveedor">Proveedor:</label>
+            <select name="proveedor" id="proveedor"></select>            
+            <input type="text" id= "proveedorInput" placeholder="Escribe el código del proveedor">
+            <a href="{{ url_for('alta_proveedor') }}" class="btn btn-primary">Dar Alta Nuevo Proveedor</a><br>
+            
+
+            <label for="unidad_de_medida">Unidad de Medida:</label>
+            <input type="text" name="unidad_de_medida">
+        </div>
+
+        <div class="form-column">
+            <div class="form-column">
+                <label for="temporada">Temporada:</label>
+                <select name="temporada" id="temporada"></select>
+                <input type="text" id="temporadaInput" placeholder="Ingrese la temporada">
+            </div>
+
+            <label for="ano">Año:</label>
+            <input type="number" name="ano">
+        </div>
+
+        <div class="form-column">
+            <label for="familia">Familia:</label>
+            <select name="familia">
+            <option value="1">CALZADO</option>
+            <option value="2">INDUMENTARIA</option>
+            <option value="3">ACCESORIOS</option>
+            <option value="4">MEDIAS</option>
+            </select>
+            
+            
+            <label for="material">Material:</label>
+            <select name="material" id="material"></select>
+            <input type="text" id="materialInput" placeholder="Ingrese el material">
+        </div>
+
+        <div class="form-column">
+            <label for="linea">Línea:</label>
+            <select name="linea" id="linea"></select>
+            <input type="text" id="lineaInput" placeholder="Ingrese la línea">
+
+            <label for="grupo">Grupo:</label>
+            <select name="grupo" id="grupo"></select>                    
+            <input type="text" id="grupoInput" placeholder="Ingrese el grupo">
+        </div>
+
+        <div class="form-column">
+            <label for="categoria">Categoría de Artículo:</label>
+            <select name="categoria" id="categoria"></select>
+            <input type="text" id="categoriaInput" placeholder="Ingrese la categoría">
+            
+            <label for="clasificacion">Clasificación:</label>
+            <select name="clasificacion" id="clasificacion"></select>
+            <input type="text" id="clasificacionInput" placeholder="Ingrese la clasificación">
+        </div>
+
+        <div class="form-column">
+            <label for="tipo">Tipo de Artículo:</label>
+            <select name="tipo" id="tipo"></select>
+            <input type="text" id="tipoInput" placeholder="Ingrese el tipo de artículo">
+
+            <label for="paleta_colores">Paleta de Colores:</label>
+            <select name="paleta_colores" id="paleta_colores"></select>
+            <input type="text" id="paleta_coloresInput" placeholder="Ingrese la paleta de colores">
+        </div>    
+        <button type="submit" name="manual_submit">Cargar Manualmente</button>       
+    </form>
+    <div id="back-to-home">
+
+        <a href="/">Regresar a Inicio</a>
+    </div>
+    <!-- Aquí agregamos una sección para mostrar mensajes -->
+ 
+
+    <script>
+        // Función para cargar dinámicamente opciones desde archivos JSON
+        function cargarOpciones(rutaJSON, selectElement, inputElement) {
+            // Obtener el elemento select
+            const select = document.getElementById(selectElement);
+
+            // Obtener el elemento input
+            const input = document.getElementById(inputElement);
+
+            // Realizar una solicitud para cargar los datos desde el archivo JSON
+            fetch(rutaJSON)
+                .then(response => response.json())
+                .then(data => {
+                    // Verificar si data.opciones está definido
+                    if (data && data.opciones) {
+                        // Iterar sobre las opciones y agregarlas al select
+                        data.opciones.forEach(opcion => {
+                            const option = document.createElement('option');
+                            option.value = opcion.codigo;
+                            option.text = `${opcion.codigo} - ${opcion.nombre}`;
+                            select.appendChild(option);
+                        });
+
+                        // Agregar un evento de cambio al select para actualizar el valor del input
+                        select.addEventListener('change', () => {
+                            input.value = select.value;
+                        });
+
+                        // Agregar un evento de cambio al input para actualizar el valor del select
+                        input.addEventListener('input', () => {
+                            select.value = input.value;
+                        });
+                    } else {
+                        console.error('Los datos no tienen la estructura esperada.');
+                    }
+                })
+                .catch(error => console.error(`Error al cargar opciones desde ${rutaJSON}:`, error));
+        }
+
+        // Llamar a la función para cargar proveedores al cargar la página
+        document.addEventListener('DOMContentLoaded', () => {
+            cargarOpciones('/data/proveedores.json', 'proveedor', 'proveedorInput');
+        });
+
+        // Llamar a la función para cargar grupos al cargar la página
+        document.addEventListener('DOMContentLoaded', () => {
+            cargarOpciones('/static/grupos.json', 'grupo', 'grupoInput');
+        });
+
+        // Llamar a la función para cargar clasificaciones al cargar la página
+        document.addEventListener('DOMContentLoaded', () => {
+            cargarOpciones('/static/clasificaciones.json', 'clasificacion', 'clasificacionInput');
+        });
+
+        // Llamar a la función para cargar categorias al cargar la página
+        document.addEventListener('DOMContentLoaded', () => {
+            cargarOpciones('/static/categorias.json', 'categoria', 'categoriaInput');
+        });
+
+        // Llamar a la función para cargar temporadas al cargar la página
+        document.addEventListener('DOMContentLoaded', () => {
+        cargarOpciones('/static/temporada.json', 'temporada', 'temporadaInput');
+    });
+
+        // Llamar a la función para cargar líneas al cargar la página
+        document.addEventListener('DOMContentLoaded', () => {
+        cargarOpciones('/static/linea.json', 'linea', 'lineaInput');
+    });
+
+
+    // Llamar a la función para cargar tipos de artículo al cargar la página
+    document.addEventListener('DOMContentLoaded', () => {
+        cargarOpciones('/static/tipos.json', 'tipo', 'tipoInput');
+    });
+
+    // Llamar a la función para cargar materiales al cargar la página
+    document.addEventListener('DOMContentLoaded', () => {
+        cargarOpciones('/static/materiales.json', 'material', 'materialInput');
+    });
+
+    // Llamar a la función para cargar paletas de colores al cargar la página
+    document.addEventListener('DOMContentLoaded', () => {
+        cargarOpciones('/static/paletas.json', 'paleta_colores', 'paleta_coloresInput');
+    });
+
+
+     
+    </script>
+   
+  
+    <script>
+        // JavaScript para mostrar el mensaje
+        document.addEventListener("DOMContentLoaded", function () {
+            // Obtén el mensaje del servidor y actualiza el contenido de la etiqueta <p>
+            var mensaje = "{{ mensaje_del_servidor }}"; // Asegúrate de que esta variable coincida con la que estás pasando desde el servidor
+            document.getElementById("mensaje").innerText = mensaje;
+        });
+    </script>
+</body>
+
+</html>

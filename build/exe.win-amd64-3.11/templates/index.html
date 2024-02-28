@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alta de Artículos - Grupo Sevesport</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f8ff; /* Azul claro */
+            margin: 20px;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+        } 
+        
+        #mensaje {
+    font-size: 24px;
+    font-weight: bold;
+    font-style:oblique;
+
+
+         }
+
+
+
+        
+
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        label {
+            display: block;
+            margin: 10px 0 5px;
+            color: #555;
+        }
+
+        input {
+            width: calc(100% - 12px);
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        input[type="checkbox"] {
+            width: auto;
+            margin-top: 5px;
+        }
+
+        button {
+            background-color: #4caf50; /* Verde */
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: #45a049; /* Verde más oscuro al pasar el mouse */
+        }
+    </style>
+</head>
+<body>
+    <h1>Alta de Artículos - Grupo Sevesport</h1>
+    <h1>Carga de Artículos</h1>
+    <p id="mensaje"></p>
+        
+    <form method="post" action="/index">
+
+        <label for="base_de_datos">Base de Datos:</label>
+        <select name="base_de_datos" required>
+            <option value="DEPOFORT">DEPOFORT</option>
+            <option value="DEPOSEVN">DEPOSEVN</option>
+        </select>
+
+        <label for="codigo">Código:</label>
+        <input type="text" name="codigo" required>
+
+        <label for="descripcion">Descripción:</label>
+        <input type="text" name="descripcion" required>
+
+        <label for="descripcion_adicional">Descripción Adicional:</label>
+        <input type="text" name="descripcion_adicional" required>
+
+        <label for="no_permite_devoluciones">No Permite Devoluciones:</label>
+        <input type="checkbox" name="no_permite_devoluciones">
+
+        <label for="restringir_descuentos">Restringir Descuentos:</label>
+        <input type="checkbox" name="restringir_descuentos">
+
+        <label for="NoPublicarEnEcommerce">No Publicar en Ecommerce:</label>
+        <input type="checkbox" name="NoPublicarEnEcommerce">
+
+        <label for="solo_promo_y_kit">Solo Promo y Kit:</label>
+        <input type="checkbox" name="solo_promo_y_kit">
+
+        <label for="proveedor">Proveedor:</label>
+        <input type="text" name="proveedor" required>
+
+        <label for="unidad_de_medida">Unidad de Medida:</label>
+        <input type="text" name="unidad_de_medida" required>
+
+        <label for="temporada">Temporada:</label>
+        <input type="text" name="temporada" required>
+
+        <label for="ano">Año:</label>
+        <input type="number" name="ano" required>
+
+        <label for="familia">Familia:</label>
+        <input type="text" name="familia" required>
+
+        <label for="material">Material:</label>
+        <input type="text" name="material" required>
+
+        <label for="linea">Linea:</label>
+        <input type="text" name="linea" required>
+
+        <label for="grupo">Grupo:</label>
+        <input type="text" name="grupo" required>
+
+        <label for="categoria">Categoría de Artículo:</label>
+        <input type="text" name="categoria" required>
+
+        <label for="clasificacion">Clasificación:</label>
+        <input type="text" name="clasificacion" required>
+
+        <label for="tipo">Tipo de Artículo:</label>
+        <input type="text" name="tipo" required>
+
+        <label for="paleta_colores">Paleta de Colores:</label>
+        <input type="text" name="paleta_colores" required>
+
+        <button type="submit" name="manual_submit">Cargar Manualmente</button>
+        <div id="back-to-home">
+            <a href="/">Regresar a Inicio</a>
+        </div>
+    
+    </form>
+    
+
+    <script>
+        // JavaScript para mostrar el mensaje
+        document.addEventListener("DOMContentLoaded", function() {
+            // Obtén el mensaje del servidor y actualiza el contenido de la etiqueta <p>
+            var mensaje = "{{ mensaje_del_servidor }}";  // Asegúrate de que esta variable coincida con la que estás pasando desde el servidor
+            document.getElementById("mensaje").innerText = mensaje;
+        });
+    </script>
+</body>
+</html>

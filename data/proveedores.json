@@ -1,0 +1,1184 @@
+{
+  "opciones": [
+    {
+      "codigo": "Código",
+      "nombre": "Nombre"
+    },
+    {
+      "codigo": "012",
+      "nombre": "INDUMENTARIA LOCALES"
+    },
+    {
+      "codigo": "100",
+      "nombre": "MAGIC TEAM S.A"
+    },
+    {
+      "codigo": "1001",
+      "nombre": "Caraccioli Maria Celia"
+    },
+    {
+      "codigo": "1002",
+      "nombre": "Elements S.R.L."
+    },
+    {
+      "codigo": "1003",
+      "nombre": "CAMDEN (Fibrahumana SRL)"
+    },
+    {
+      "codigo": "1004",
+      "nombre": "SIXZERO"
+    },
+    {
+      "codigo": "102",
+      "nombre": "UMBRO (DASS ARGENTINA SRL)"
+    },
+    {
+      "codigo": "103",
+      "nombre": "CLA"
+    },
+    {
+      "codigo": "104",
+      "nombre": "VULCABRAS AZALEIA"
+    },
+    {
+      "codigo": "105",
+      "nombre": "REEBOK ARGENTINA"
+    },
+    {
+      "codigo": "106",
+      "nombre": "ADIDAS ARGENTINA SA"
+    },
+    {
+      "codigo": "106R",
+      "nombre": "REEBOK (Distrinando S A)"
+    },
+    {
+      "codigo": "107",
+      "nombre": "UNISOL SA"
+    },
+    {
+      "codigo": "108",
+      "nombre": "DRB"
+    },
+    {
+      "codigo": "110",
+      "nombre": "REUSCH"
+    },
+    {
+      "codigo": "111",
+      "nombre": "ENEVE"
+    },
+    {
+      "codigo": "112",
+      "nombre": "Rocotex S.R.L. (UNDER ARMOUR)"
+    },
+    {
+      "codigo": "113",
+      "nombre": "SPEEDO (JM SPORT SRL)"
+    },
+    {
+      "codigo": "114",
+      "nombre": "MITRE"
+    },
+    {
+      "codigo": "116",
+      "nombre": "DISCONTINUO"
+    },
+    {
+      "codigo": "117",
+      "nombre": "DALPONTE"
+    },
+    {
+      "codigo": "118",
+      "nombre": "MERCO IMPULSAR MARCAS S.H."
+    },
+    {
+      "codigo": "119",
+      "nombre": "DEPORTES ONCE 11"
+    },
+    {
+      "codigo": "121",
+      "nombre": "FLASH"
+    },
+    {
+      "codigo": "122",
+      "nombre": "KAPPA  (DISTRINANDO)"
+    },
+    {
+      "codigo": "122R",
+      "nombre": "REEBOK (Distrinando S A)"
+    },
+    {
+      "codigo": "123",
+      "nombre": "REEBOK (Distrinando S A)"
+    },
+    {
+      "codigo": "124",
+      "nombre": "SPORT 2000"
+    },
+    {
+      "codigo": "125",
+      "nombre": "SANTA CRUZ"
+    },
+    {
+      "codigo": "126",
+      "nombre": "ADDNICE"
+    },
+    {
+      "codigo": "127",
+      "nombre": "Sports & Adventure SA (HEAD)"
+    },
+    {
+      "codigo": "128",
+      "nombre": "HAVAIANAS"
+    },
+    {
+      "codigo": "129",
+      "nombre": "EVERLAST (TARGET)"
+    },
+    {
+      "codigo": "130",
+      "nombre": "LEADING BRANDS S.A."
+    },
+    {
+      "codigo": "131",
+      "nombre": "SAINT"
+    },
+    {
+      "codigo": "133",
+      "nombre": "ASICS ARGENTINA SA (DASS)"
+    },
+    {
+      "codigo": "134",
+      "nombre": "FORTALEZA"
+    },
+    {
+      "codigo": "135",
+      "nombre": "ARENA"
+    },
+    {
+      "codigo": "136",
+      "nombre": "HEAD"
+    },
+    {
+      "codigo": "137",
+      "nombre": "HI-TEC (Sun Sol S.R.L.)"
+    },
+    {
+      "codigo": "14",
+      "nombre": "ERREA (Level Plus Group S.A.)"
+    },
+    {
+      "codigo": "140",
+      "nombre": "HYDRO"
+    },
+    {
+      "codigo": "141",
+      "nombre": "BAN SPORT"
+    },
+    {
+      "codigo": "143",
+      "nombre": "VICBOR S.R.L."
+    },
+    {
+      "codigo": "145",
+      "nombre": "DISNEY"
+    },
+    {
+      "codigo": "146",
+      "nombre": "HERING  (CLADEN)"
+    },
+    {
+      "codigo": "147",
+      "nombre": "KALIMA (sports boards srl)"
+    },
+    {
+      "codigo": "149",
+      "nombre": "CROCS"
+    },
+    {
+      "codigo": "151",
+      "nombre": "TIEMPO DE REGALOS S.A."
+    },
+    {
+      "codigo": "152",
+      "nombre": "MUSEOS DEPORTIVOS S.A."
+    },
+    {
+      "codigo": "155",
+      "nombre": "NEW PROYECT S.R.L. (REEF)"
+    },
+    {
+      "codigo": "156",
+      "nombre": "SPECIAL CLOTHING (RETIEL)"
+    },
+    {
+      "codigo": "158",
+      "nombre": "EFFORT (DEPORTES 11)"
+    },
+    {
+      "codigo": "160",
+      "nombre": "PREMIOS"
+    },
+    {
+      "codigo": "162",
+      "nombre": "TRYON  (DASS)"
+    },
+    {
+      "codigo": "163",
+      "nombre": "FELL & TOUCH (A.MUTZ)"
+    },
+    {
+      "codigo": "164",
+      "nombre": "GIFT VOUCHERS"
+    },
+    {
+      "codigo": "165",
+      "nombre": "TOP BRANDS S.A."
+    },
+    {
+      "codigo": "167",
+      "nombre": "SKULLCANDY"
+    },
+    {
+      "codigo": "168",
+      "nombre": "Calzados Gunar S.A. (HAVAIANAS)"
+    },
+    {
+      "codigo": "170",
+      "nombre": "QUIKSILVER"
+    },
+    {
+      "codigo": "171",
+      "nombre": "ROXY"
+    },
+    {
+      "codigo": "173",
+      "nombre": "DC"
+    },
+    {
+      "codigo": "175",
+      "nombre": "ARTEONE EXPRESS"
+    },
+    {
+      "codigo": "178",
+      "nombre": "NIHEBAL S.A"
+    },
+    {
+      "codigo": "179",
+      "nombre": "KAPPA"
+    },
+    {
+      "codigo": "180",
+      "nombre": "DEPORTES ONCE 11"
+    },
+    {
+      "codigo": "181",
+      "nombre": "STRIKER (Top 11 Sports S.R.L.)"
+    },
+    {
+      "codigo": "182",
+      "nombre": "NASSAU(Top 11 Sports S.R.L.)"
+    },
+    {
+      "codigo": "184",
+      "nombre": "DONIC SCHILDKROT"
+    },
+    {
+      "codigo": "186",
+      "nombre": "EZ-LIFE"
+    },
+    {
+      "codigo": "187",
+      "nombre": "DUNLOP"
+    },
+    {
+      "codigo": "188",
+      "nombre": "KENYAN S.A."
+    },
+    {
+      "codigo": "189",
+      "nombre": "LINING"
+    },
+    {
+      "codigo": "192",
+      "nombre": "MUSEO DE LOS NINOS ABASTO"
+    },
+    {
+      "codigo": "193",
+      "nombre": "BEST SOX S.A."
+    },
+    {
+      "codigo": "194",
+      "nombre": "SPEED"
+    },
+    {
+      "codigo": "197",
+      "nombre": "VANDALIA"
+    },
+    {
+      "codigo": "199",
+      "nombre": "NEW ARRECIFE SA"
+    },
+    {
+      "codigo": "200",
+      "nombre": "BULLPADEL ONYXSPORT"
+    },
+    {
+      "codigo": "201",
+      "nombre": "TK HOCKEY EQUIPAMENT"
+    },
+    {
+      "codigo": "202",
+      "nombre": "HERSCHEL"
+    },
+    {
+      "codigo": "204",
+      "nombre": "DAVOR(KARNUK)"
+    },
+    {
+      "codigo": "206",
+      "nombre": "DUNLOP"
+    },
+    {
+      "codigo": "209",
+      "nombre": "MICROBELL"
+    },
+    {
+      "codigo": "210",
+      "nombre": "BEATBOSS"
+    },
+    {
+      "codigo": "213",
+      "nombre": "DISTRINANDO S.A."
+    },
+    {
+      "codigo": "216",
+      "nombre": "LE COQ SPORTIF"
+    },
+    {
+      "codigo": "217",
+      "nombre": "JOSE BASSO S.A."
+    },
+    {
+      "codigo": "218",
+      "nombre": "YAMP S.A.(LEVIS)"
+    },
+    {
+      "codigo": "219",
+      "nombre": "Roxy"
+    },
+    {
+      "codigo": "22",
+      "nombre": "PICOTO SPORTS (MAURO)"
+    },
+    {
+      "codigo": "220",
+      "nombre": "IMPULSAR MARCAS"
+    },
+    {
+      "codigo": "221",
+      "nombre": "GILBERT"
+    },
+    {
+      "codigo": "222",
+      "nombre": "SPALDING"
+    },
+    {
+      "codigo": "224",
+      "nombre": "DAFAWA EMPRENDIMIENTOS (OHCAN LOS ANDES)"
+    },
+    {
+      "codigo": "225",
+      "nombre": "OCHAN TEMPERLEY"
+    },
+    {
+      "codigo": "226",
+      "nombre": "ALPINE SKATE"
+    },
+    {
+      "codigo": "227",
+      "nombre": "TOP FORCE"
+    },
+    {
+      "codigo": "228",
+      "nombre": "ARENA"
+    },
+    {
+      "codigo": "229",
+      "nombre": "SOLANYE(FUTBOL)"
+    },
+    {
+      "codigo": "230",
+      "nombre": "PCDA S.A(ORIGINAL PENGUIN ARGENTINA)"
+    },
+    {
+      "codigo": "232",
+      "nombre": "UHLSPORT"
+    },
+    {
+      "codigo": "233",
+      "nombre": "RANGO"
+    },
+    {
+      "codigo": "235",
+      "nombre": "PUNTO GOLD (MOCHILAS FUTBOL)"
+    },
+    {
+      "codigo": "236",
+      "nombre": "ADIDAS OUTLET"
+    },
+    {
+      "codigo": "237",
+      "nombre": "GRIMOLDI S.A (KEDS)"
+    },
+    {
+      "codigo": "239",
+      "nombre": "ALL SAINTS S.A. (REVES)"
+    },
+    {
+      "codigo": "241",
+      "nombre": "KINEMED S.A ( SPIDER TECH )"
+    },
+    {
+      "codigo": "243",
+      "nombre": "MERRELL (GRIMOLDI)"
+    },
+    {
+      "codigo": "244",
+      "nombre": "OLYMPIKUS (International Brands S.R.L.)"
+    },
+    {
+      "codigo": "245",
+      "nombre": "VESUVIO S.A.CI.F.E.I. (LACOSTE)"
+    },
+    {
+      "codigo": "246",
+      "nombre": "HANG LOOSE (FEDELAN SRL)"
+    },
+    {
+      "codigo": "247",
+      "nombre": "Kadursport S.R.L."
+    },
+    {
+      "codigo": "248",
+      "nombre": "GRIMOLDI S.A.(VANS)"
+    },
+    {
+      "codigo": "249",
+      "nombre": "GAELLE"
+    },
+    {
+      "codigo": "250",
+      "nombre": "QUILMES"
+    },
+    {
+      "codigo": "251",
+      "nombre": "SENSEI"
+    },
+    {
+      "codigo": "252",
+      "nombre": "SUFIX"
+    },
+    {
+      "codigo": "253",
+      "nombre": "MARFED"
+    },
+    {
+      "codigo": "254",
+      "nombre": "DODIK"
+    },
+    {
+      "codigo": "255",
+      "nombre": "SPORT DESIGN S.A - JMCGROUP (NEW BALANCE)"
+    },
+    {
+      "codigo": "256",
+      "nombre": "STAR SPORT"
+    },
+    {
+      "codigo": "257",
+      "nombre": "SIMBRA"
+    },
+    {
+      "codigo": "259",
+      "nombre": "GRAYS"
+    },
+    {
+      "codigo": "262",
+      "nombre": "GRUPPO 7 SA"
+    },
+    {
+      "codigo": "263",
+      "nombre": "GLOBAL BRANDS S.A (MORMAII)"
+    },
+    {
+      "codigo": "264",
+      "nombre": "NUEVO GEMA S.A."
+    },
+    {
+      "codigo": "266",
+      "nombre": "MEIMPORTO EMPRESA IMPORTADORA"
+    },
+    {
+      "codigo": "269",
+      "nombre": "LA GEAR (DELANDAR SRL)"
+    },
+    {
+      "codigo": "271",
+      "nombre": "INDOMITO"
+    },
+    {
+      "codigo": "272",
+      "nombre": "WABRO S.A"
+    },
+    {
+      "codigo": "273",
+      "nombre": "JANSPORT"
+    },
+    {
+      "codigo": "275",
+      "nombre": "RUGBY EQUIPMENT S.A."
+    },
+    {
+      "codigo": "276",
+      "nombre": "FERPAMAR S.A."
+    },
+    {
+      "codigo": "278",
+      "nombre": "LYON (DEFENSA Y JUSTICIA)"
+    },
+    {
+      "codigo": "279",
+      "nombre": "SPORT LYON S.A.(TEMPERLEY)"
+    },
+    {
+      "codigo": "280",
+      "nombre": "ARGOLF S.A."
+    },
+    {
+      "codigo": "282",
+      "nombre": "MACRON"
+    },
+    {
+      "codigo": "283",
+      "nombre": "DONDE BRILLA EL SOL (BOLIVIA)"
+    },
+    {
+      "codigo": "284",
+      "nombre": "DEBORA"
+    },
+    {
+      "codigo": "285",
+      "nombre": "JM SPORT S.R.L.(JOMA)"
+    },
+    {
+      "codigo": "287",
+      "nombre": "HERSCHEL"
+    },
+    {
+      "codigo": "288",
+      "nombre": "REEF"
+    },
+    {
+      "codigo": "289",
+      "nombre": "PEPIS S.A. (MONO)"
+    },
+    {
+      "codigo": "291",
+      "nombre": "BRAKU"
+    },
+    {
+      "codigo": "292",
+      "nombre": "MESSINA JUAN Y MESSINA CLAUDIO"
+    },
+    {
+      "codigo": "293",
+      "nombre": "LA SCIARPA REALE S.A."
+    },
+    {
+      "codigo": "294",
+      "nombre": "G & G INTERNACIONAL"
+    },
+    {
+      "codigo": "295",
+      "nombre": "SUPRA"
+    },
+    {
+      "codigo": "296",
+      "nombre": "IMAGO"
+    },
+    {
+      "codigo": "297",
+      "nombre": "SPIRIT HARDWEAR(ALPHA CORPORATION ARGENTINA S.R.L.)"
+    },
+    {
+      "codigo": "300",
+      "nombre": "GRIMOLDI S.A. (HUSH PUPPIES)"
+    },
+    {
+      "codigo": "301",
+      "nombre": "FILA (DASS ARGENTINA SRL)"
+    },
+    {
+      "codigo": "302",
+      "nombre": "HERKLES"
+    },
+    {
+      "codigo": "303",
+      "nombre": "ARIZONA SUN DE GIOFFRE GUSTAVO FABIAN"
+    },
+    {
+      "codigo": "304",
+      "nombre": "BRAND TEAM"
+    },
+    {
+      "codigo": "305",
+      "nombre": "GOLD-CAN S.A.(SOLANYE)"
+    },
+    {
+      "codigo": "307",
+      "nombre": "SOX COMPRESION"
+    },
+    {
+      "codigo": "308",
+      "nombre": "NEXT SEASON S.R.L."
+    },
+    {
+      "codigo": "309",
+      "nombre": "REVES"
+    },
+    {
+      "codigo": "310",
+      "nombre": "HUMMEL"
+    },
+    {
+      "codigo": "312",
+      "nombre": "POWERSLIDE"
+    },
+    {
+      "codigo": "313",
+      "nombre": "VICBOR (ATOMIK)"
+    },
+    {
+      "codigo": "316",
+      "nombre": "FLINGDAY S.A.(JOHN FOOS)"
+    },
+    {
+      "codigo": "320",
+      "nombre": "PONY (Coopershoes)"
+    },
+    {
+      "codigo": "333",
+      "nombre": "Tivory Trading Co S.A."
+    },
+    {
+      "codigo": "342",
+      "nombre": "BILLABONG"
+    },
+    {
+      "codigo": "355",
+      "nombre": "TROWN"
+    },
+    {
+      "codigo": "366",
+      "nombre": "DAVOR (Favir Textil S.R.L.)"
+    },
+    {
+      "codigo": "400",
+      "nombre": "GRAYS"
+    },
+    {
+      "codigo": "401",
+      "nombre": "NIKE ARGENTINA S.R.L."
+    },
+    {
+      "codigo": "402",
+      "nombre": "QIX"
+    },
+    {
+      "codigo": "412",
+      "nombre": "OTRAS"
+    },
+    {
+      "codigo": "459",
+      "nombre": "SPORT PROTECTION S.A. (FLASH)"
+    },
+    {
+      "codigo": "46",
+      "nombre": "GOALTY (DEPORTES 11)"
+    },
+    {
+      "codigo": "501",
+      "nombre": "PROCER(SATURNINO CABEZON SA)"
+    },
+    {
+      "codigo": "502",
+      "nombre": "MOSCONI"
+    },
+    {
+      "codigo": "520",
+      "nombre": "SLAZENGER (Back Up Group)"
+    },
+    {
+      "codigo": "521",
+      "nombre": "TDP (TAPONES DE PUNTA)"
+    },
+    {
+      "codigo": "523",
+      "nombre": "CHAMPION"
+    },
+    {
+      "codigo": "524",
+      "nombre": "PRESTIGE (Dos Cero Uno S.R.L.)"
+    },
+    {
+      "codigo": "526",
+      "nombre": "Discuer S.R.L."
+    },
+    {
+      "codigo": "550",
+      "nombre": "TAJTEL"
+    },
+    {
+      "codigo": "554",
+      "nombre": "Tendence"
+    },
+    {
+      "codigo": "555",
+      "nombre": "VOLCOM"
+    },
+    {
+      "codigo": "556",
+      "nombre": "CIRCA"
+    },
+    {
+      "codigo": "601",
+      "nombre": "PENALTY ARGENTINA S.A."
+    },
+    {
+      "codigo": "654",
+      "nombre": "Umbro (desiderata)"
+    },
+    {
+      "codigo": "655",
+      "nombre": "Jack lee"
+    },
+    {
+      "codigo": "668",
+      "nombre": "COLLAB"
+    },
+    {
+      "codigo": "692",
+      "nombre": "SPORTO CARMEL(11 Sports S.R.L.)"
+    },
+    {
+      "codigo": "700",
+      "nombre": "SYSTEM (MAZALOSA S.A)"
+    },
+    {
+      "codigo": "701",
+      "nombre": "TOPPER ALPARGATAS CALZADOS SA"
+    },
+    {
+      "codigo": "702",
+      "nombre": "ID ARGENTINA S.A."
+    },
+    {
+      "codigo": "703",
+      "nombre": "PUMA"
+    },
+    {
+      "codigo": "704",
+      "nombre": "SOCCER COLORS SRL"
+    },
+    {
+      "codigo": "705",
+      "nombre": "PAPELERA FRANCESA S.A."
+    },
+    {
+      "codigo": "711",
+      "nombre": "MIA SPORT SA"
+    },
+    {
+      "codigo": "712",
+      "nombre": "KEMPA"
+    },
+    {
+      "codigo": "762",
+      "nombre": "COVER(11 Sports S.R.L.)"
+    },
+    {
+      "codigo": "774",
+      "nombre": "KAGIVA (B.S. Institucional S.R.L.)"
+    },
+    {
+      "codigo": "778",
+      "nombre": "VKCYCLER (Anavi S.A.)"
+    },
+    {
+      "codigo": "784",
+      "nombre": "DIADORA"
+    },
+    {
+      "codigo": "786",
+      "nombre": "SPORTO (deportes11)"
+    },
+    {
+      "codigo": "799",
+      "nombre": "CARTAGO"
+    },
+    {
+      "codigo": "800",
+      "nombre": "RIDER"
+    },
+    {
+      "codigo": "803",
+      "nombre": "DISCOVERY"
+    },
+    {
+      "codigo": "876",
+      "nombre": "VAIRO (Action Sports Sociedad De Responsabilidad Limitada)"
+    },
+    {
+      "codigo": "88",
+      "nombre": "Hat-trick S.R.L."
+    },
+    {
+      "codigo": "886",
+      "nombre": "ATHIX"
+    },
+    {
+      "codigo": "887",
+      "nombre": "Calzados Blanco S.A. (BANFIELD)"
+    },
+    {
+      "codigo": "888",
+      "nombre": "Fox Socks (Nito Textil)"
+    },
+    {
+      "codigo": "897",
+      "nombre": "RANGO(DEPORTE 11)"
+    },
+    {
+      "codigo": "898",
+      "nombre": "VILAS"
+    },
+    {
+      "codigo": "900",
+      "nombre": "CAPSLAB"
+    },
+    {
+      "codigo": "901",
+      "nombre": "GRENDENE"
+    },
+    {
+      "codigo": "902",
+      "nombre": "Forestex S.R.L."
+    },
+    {
+      "codigo": "905",
+      "nombre": "GIVOVA"
+    },
+    {
+      "codigo": "906",
+      "nombre": "LA CORDONERIA"
+    },
+    {
+      "codigo": "907",
+      "nombre": "MDQ"
+    },
+    {
+      "codigo": "908",
+      "nombre": "UA ARGENTINA SRL."
+    },
+    {
+      "codigo": "912",
+      "nombre": "BABOLAT ( BRAKU )"
+    },
+    {
+      "codigo": "913",
+      "nombre": "SPORT ICON S.A NEW BALANCE"
+    },
+    {
+      "codigo": "914",
+      "nombre": "WILSON ( WINNERS PRODUCTOS DEPORTIVOS S.A )"
+    },
+    {
+      "codigo": "915",
+      "nombre": "INTIAR S.A  ( POWERBALANCE )"
+    },
+    {
+      "codigo": "917",
+      "nombre": "GRIMOLDI (SAUCONY)"
+    },
+    {
+      "codigo": "919",
+      "nombre": "COMPUTACION JASA"
+    },
+    {
+      "codigo": "920",
+      "nombre": "BIELSKY ALEXIS PABLO"
+    },
+    {
+      "codigo": "921",
+      "nombre": "SEVEN & TOP"
+    },
+    {
+      "codigo": "922",
+      "nombre": "ELMARKETWEB"
+    },
+    {
+      "codigo": "923",
+      "nombre": "Codepun S.A. (lyon)"
+    },
+    {
+      "codigo": "924",
+      "nombre": "K7"
+    },
+    {
+      "codigo": "925",
+      "nombre": "RAGNAR LOTHBROK"
+    },
+    {
+      "codigo": "926",
+      "nombre": "ENERGY (Debenedetto Cynthia Vanesa)"
+    },
+    {
+      "codigo": "932",
+      "nombre": "THRASHER"
+    },
+    {
+      "codigo": "935",
+      "nombre": "FOOTY"
+    },
+    {
+      "codigo": "936",
+      "nombre": "FISA (BURTON)"
+    },
+    {
+      "codigo": "937",
+      "nombre": "BODYTHERM"
+    },
+    {
+      "codigo": "947",
+      "nombre": "NBA (TARGET)"
+    },
+    {
+      "codigo": "948",
+      "nombre": "IPANEMA Distrinando S.A"
+    },
+    {
+      "codigo": "954",
+      "nombre": "FAMILY"
+    },
+    {
+      "codigo": "956",
+      "nombre": "COCA COLA (Distrinando S A)"
+    },
+    {
+      "codigo": "966",
+      "nombre": "STARK(Zelarayan Juan Carlos)"
+    },
+    {
+      "codigo": "967",
+      "nombre": "CROUCH"
+    },
+    {
+      "codigo": "970",
+      "nombre": "VALKYMIA"
+    },
+    {
+      "codigo": "971",
+      "nombre": "DOFEN (RUSSELL HECTOR)"
+    },
+    {
+      "codigo": "973",
+      "nombre": "BRONX"
+    },
+    {
+      "codigo": "974",
+      "nombre": "CAMDEN (vilariño carlos antonio)"
+    },
+    {
+      "codigo": "975",
+      "nombre": "PALTA"
+    },
+    {
+      "codigo": "978",
+      "nombre": "JAGUAR"
+    },
+    {
+      "codigo": "980",
+      "nombre": "DIPORTTO (NUVE)"
+    },
+    {
+      "codigo": "981",
+      "nombre": "AVIA"
+    },
+    {
+      "codigo": "982",
+      "nombre": "PRAHIERAS"
+    },
+    {
+      "codigo": "987",
+      "nombre": "ERIMA (ATLETIC SERVICES)"
+    },
+    {
+      "codigo": "990",
+      "nombre": "IMPROM S.A (CONTIGO)"
+    },
+    {
+      "codigo": "991",
+      "nombre": "361 (DIST)"
+    },
+    {
+      "codigo": "992",
+      "nombre": "SPORT SERVICES (PROYEC)"
+    },
+    {
+      "codigo": "993",
+      "nombre": "SORMA"
+    },
+    {
+      "codigo": "995",
+      "nombre": "ODEA"
+    },
+    {
+      "codigo": "996",
+      "nombre": "BEWE"
+    },
+    {
+      "codigo": "997",
+      "nombre": "REVOLVER"
+    },
+    {
+      "codigo": "998",
+      "nombre": "Fabrika S.A."
+    },
+    {
+      "codigo": "999",
+      "nombre": "IL OSSSO S.R.L"
+    },
+    {
+      "codigo": "AT",
+      "nombre": "ATLETIC SERVICES S.A."
+    },
+    {
+      "codigo": "BARB",
+      "nombre": "BARBIE"
+    },
+    {
+      "codigo": "BUDHA",
+      "nombre": "BUDHA S.A."
+    },
+    {
+      "codigo": "CAM",
+      "nombre": "CARLOS A. MOLINARI"
+    },
+    {
+      "codigo": "CLESM",
+      "nombre": "CLESMAR S.A"
+    },
+    {
+      "codigo": "CSLL",
+      "nombre": "COMO SE LLAMA SRL"
+    },
+    {
+      "codigo": "DRIAL",
+      "nombre": "DRIAL ATHLETIC S.A."
+    },
+    {
+      "codigo": "FR",
+      "nombre": "FERNANDO G RUSSO"
+    },
+    {
+      "codigo": "GAN",
+      "nombre": "GANTOS S.A"
+    },
+    {
+      "codigo": "GF",
+      "nombre": "GIFT VOUCHER GRUPO SEVEN"
+    },
+    {
+      "codigo": "GIFT",
+      "nombre": "PROMOCIONES GIFT"
+    },
+    {
+      "codigo": "GOLD",
+      "nombre": "GOLD (ATLETIC SERVICES)"
+    },
+    {
+      "codigo": "JSR",
+      "nombre": "JORGE SAUL RAJCH"
+    },
+    {
+      "codigo": "KATZ",
+      "nombre": "KATZ PABLO"
+    },
+    {
+      "codigo": "KIDDY",
+      "nombre": "KIDDYLAND S.A"
+    },
+    {
+      "codigo": "KLALU",
+      "nombre": "KLALUTEX SRL"
+    },
+    {
+      "codigo": "KONNA",
+      "nombre": "KONNA DE DANIEL ANIBAL BARRERA"
+    },
+    {
+      "codigo": "KOSS",
+      "nombre": "KOSSOK BRANDSIS."
+    },
+    {
+      "codigo": "LEJ",
+      "nombre": "LEJOPI S.A."
+    },
+    {
+      "codigo": "LM",
+      "nombre": "LAS MELLIZAS"
+    },
+    {
+      "codigo": "LMR",
+      "nombre": "LMR MATERIALES DEPORTIVOS"
+    },
+    {
+      "codigo": "MBG",
+      "nombre": "MBG LIBRERIA Y PAPELERIA E INSUMOS DE COMPUTACION"
+    },
+    {
+      "codigo": "MIL",
+      "nombre": "MILIDEAS"
+    },
+    {
+      "codigo": "MIR",
+      "nombre": "MIR FITNESS CORDOBA"
+    },
+    {
+      "codigo": "NULL",
+      "nombre": "NULL"
+    },
+    {
+      "codigo": "SCO",
+      "nombre": "SPORTS COMPLEMENTS"
+    },
+    {
+      "codigo": "SOL",
+      "nombre": "SOL Y LUNA"
+    },
+    {
+      "codigo": "STK",
+      "nombre": "STARKE (FITNESS)"
+    },
+    {
+      "codigo": "TCP",
+      "nombre": "TARJETA DE CREDITO PERSONAL"
+    },
+    {
+      "codigo": "VALAN",
+      "nombre": "VALANI S.A"
+    }
+  ]
+}

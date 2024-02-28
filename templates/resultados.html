@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Conexión Externa a Dragonfish</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        #sidebar {
+            width: 250px;
+            height: 100%;
+            position: fixed;
+            background-color: #2c3e50;
+            padding-top: 20px;
+            text-align: center;
+        }
+
+        #sidebar a {
+            display: block;
+            padding: 10px;
+            margin: 10px;
+            text-decoration: none;
+            color: #ecf0f1;
+            border-bottom: 1px solid #34495e;
+            transition: background-color 0.3s ease;
+        }
+
+        #sidebar a:hover {
+            background-color: #3498db;
+        }
+
+        #content {
+            margin-left: 250px;
+            padding: 16px;
+            text-align: center;
+        }
+
+        h1 {
+            color: #2c3e50;
+        }
+
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            border: 1px solid #3498db;
+        }
+
+        th, td {
+            padding: 15px;
+            text-align: center;
+            border: 1px solid #3498db;
+        }
+
+        th {
+            background-color: #3498db;
+            color: #ecf0f1;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="sidebar">
+        <!-- ... (otros enlaces) ... -->
+    </div>
+    
+    <div id="content">
+        <h1>SISTEMA DE CONEXIÓN EXTERNA A DRAGONFISH</h1>
+    
+        <!-- Formulario para la consulta de stock -->
+        <form action="{{ url_for('consulta_stock_precios') }}" method="post">
+            <label for="codigo">Código:</label>
+            <input type="text" id="codigo" name="query" required>
+    
+            <label for="base_de_datos">Base de Datos:</label>
+            <select id="base_de_datos" name="base_de_datos" required>
+                <option value="DEPOFORT">DEPOFORT</option>
+                <option value="DEPOSEVN">DEPOSEVN</option>
+            </select>
+    
+            <button type="submit">Consultar</button>
+        </form>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Articulo</th>
+                    <th>Descripción</th>
+                    <th>Precio (Internet)</th>
+                    <th>Precio (OUTLET)</th>
+                    <th>Precio (Locales)</th>
+                    
+                    
+                    
+                </tr>
+            </thead>
+            <tbody>
+                {% for resultado in resultados["Resultados"] %}
+                    <tr>
+                        <td>{{ resultado.Articulo }}</td>
+                        <td>{{ resultado.ArticuloDescripcion }}</td>
+                        {% set precios_internet = resultado.Precios|selectattr('Lista', 'equalto', 'Online') %}
+                        <td>{{ precios_internet|map(attribute='Precio')|join(', ') }}</td>
+                        {% set precios_outlet = resultado.Precios|selectattr('Lista', 'equalto', 'Outlet') %}
+                        <td>{{ precios_outlet|map(attribute='Precio')|join(', ') }}</td>
+                        {% set precios_locales = resultado.Precios|selectattr('Lista', 'equalto', 'Locales') %}
+                        <td>{{ precios_locales|map(attribute='Precio')|join(', ') }}</td>            
+                    </tr>
+                {% endfor %}
+            </tbody>
+            
+        </table>
+        <div id="back-to-home">
+            <a href="/">Regresar a Inicio</a>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,24 @@
+{
+  "opciones": [
+    {
+      "codigo": "C\u00f3digo",
+      "nombre": "Descripci\u00f3n"
+    },
+    {
+      "codigo": "1",
+      "nombre": "VERANO"
+    },
+    {
+      "codigo": "2",
+      "nombre": "OTO\u00d1O"
+    },
+    {
+      "codigo": "3",
+      "nombre": "INVIERNO"
+    },
+    {
+      "codigo": "4",
+      "nombre": "PRIMAVERA"
+    }
+  ]
+}

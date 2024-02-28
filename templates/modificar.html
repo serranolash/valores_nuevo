@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alta de Artículos - Grupo Sevesport</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f8ff; /* Azul claro */
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 20vh;
+           
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+            font-size: 24px; /* Ajusta el tamaño según tu preferencia */
+            margin-bottom: 20px;
+        }
+
+        form {
+            width: 100%; /* Ajusta el ancho del formulario según tus necesidades */
+            max-width: 700px; /* Puedes ajustar este valor según tus necesidades */
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            box-sizing: border-box;
+            margin: 0 auto; /* Centrar el formulario */
+            display: flex;
+            flex-wrap: wrap; /* Permite que los elementos se envuelvan si no caben en una sola fila */
+            justify-content: space-around; /* Espaciado uniforme entre los elementos */
+            border: 15px solid #1941c6;
+            font-size: 16px;            
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: bold;          
+          
+            
+        }
+
+        .form-column {
+            width: 48%; /* Ajusta el ancho de cada columna */
+            box-sizing: border-box;
+            margin: auto;
+        }
+
+        .form-column * {
+            width: 100%;
+            box-sizing: border-box;
+            margin-bottom: 10px;
+        }
+
+        input {
+            padding: 2px;
+            border: 8px solid #ccc;
+            border-radius: 8px;
+            box-sizing: border-box;
+            margin: 0.5%
+        }
+
+        button {
+            width: 25%;
+            background-color: #132dd6; /* Verde */
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 12px;
+            align-content: center;
+            align-items: center;
+        }
+
+        button:hover {
+            background-color: #8ca045; /* Verde más oscuro al pasar el mouse */
+        }
+    </style>
+</head>
+<body>
+    <h1>Modificar Artículo - Grupo Sevesport</h1>
+    <h1>Modificar Artículo Existente</h1>
+    <p id="mensaje"></p>
+        
+    <form method="post" action="/modificar">
+        <div class="form-column">
+        <label for="base_de_datos">Base de Datos:</label>
+        <select name="base_de_datos" required>
+            <option value="DEPOFORT">DEPOFORT</option>
+            <option value="DEPOSEVN">DEPOSEVN</option>
+        
+        </select> 
+        <label for="codigo">Código:</label>
+        <input type="text" name="codigo" value="{{ datos_existentes.Codigo }}" readonly>
+       </div>
+
+
+       <div class="form-column">
+        <label for="descripcion">Descripción:</label>
+        <input type="text" name="descripcion" value="{{ datos_existentes.Descripcion }}" required>     
+      
+        <label for="descripcion_adicional">Descripción Adicional:</label>
+        <input type="text" name="descripcion_adicional" value="{{ datos_existentes.DescripcionAdicional }}" required>
+      </div>
+
+      <div class="form-column">
+        <label for="no_permite_devoluciones">No Permite Devoluciones:</label>
+        <input type="checkbox" name="no_permite_devoluciones" {% if datos_existentes.NoPermiteDevoluciones %}checked{% endif %}>
+     
+        <label for="restringir_descuentos">Restringir Descuentos:</label>
+        <input type="checkbox" name="restringir_descuentos" {% if datos_existentes.RestringirDescuentos %}checked{% endif %}>
+      </div>
+      <div class="form-column">
+        <label for="NoPublicarEnEcommerce">No Publicar en Ecommerce:</label>
+        <input type="checkbox" name="NoPublicarEnEcommerce" {% if datos_existentes.NoPublicarEnEcommerce %}checked{% endif %}>
+
+        <label for="solo_promo_y_kit">Solo Promo y Kit:</label>
+        <input type="checkbox" name="solo_promo_y_kit" {% if datos_existentes.SoloPromoYKit %}checked{% endif %}>
+      </div>
+      <div class="form-column">
+        <label for="proveedor">Proveedor:</label>
+        <input type="text" name="proveedor" value="{{ datos_existentes.Proveedor }}" required>
+        
+        <label for="unidad_de_medida">Unidad de Medida:</label>
+        <input type="text" name="unidad_de_medida" value="{{ datos_existentes.UnidadDeMedida }}" required>
+      </div>
+      <div class="form-column">
+        <label for="temporada">Temporada:</label>
+        <input type="text" name="temporada" value="{{ datos_existentes.Temporada }}" required>
+        
+        <label for="ano">Año:</label>
+        <input type="number" name="ano" value="{{ datos_existentes.Ano }}" required>
+      </div>
+      <div class="form-column">
+        <label for="familia">Familia:</label>
+        <input type="text" name="familia" value="{{ datos_existentes.Familia }}" required>
+        
+        <label for="material">Material:</label>
+        <input type="text" name="material" value="{{ datos_existentes.Material }}" required>
+      </div>
+      <div class="form-column">
+        <label for="linea">Linea:</label>
+        <input type="text" name="linea" value="{{ datos_existentes.Linea }}" required>      
+      
+        <label for="grupo">Grupo:</label>
+        <input type="text" name="grupo" value="{{ datos_existentes.Grupo }}" required>
+      </div>
+
+      <div class="form-column">
+        <label for="categoria">Categoría de Artículo:</label>
+        <input type="text" name="categoria" value="{{ datos_existentes.CategoriaDeArticulo }}" required>    
+
+        <label for="clasificacion">Clasificación:</label>
+        <input type="text" name="clasificacion" value="{{ datos_existentes.Clasificacion }}" required>
+      </div>
+      <div class="form-column">
+
+        <label for="tipo">Tipo de Artículo:</label>
+        <input type="text" name="tipo" value="{{ datos_existentes.TipodeArticulo }}" required>
+        
+        <label for="paleta_colores">Paleta de Colores:</label>
+        <input type="text" name="paleta_colores" value="{{ datos_existentes.Paletadecolores }}" required>
+      </div>
+        <!-- Resto de los campos -->
+        
+        <button type="submit" name="modificar_submit">Modificar Artículo</button>   
+    </form>
+
+    <div id="back-to-home">
+        <a href="/">Regresar a Inicio</a>
+    </div>
+    <div id="back-to-home">
+
+      <a href="/index">Cargar Nuevo Articulo</a>
+  </div>
+    
+</body>
+</html>

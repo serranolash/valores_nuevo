@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alta vendedores</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0f8ff; /* Azul claro */
+            color: #333; /* Texto oscuro */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            flex-direction: column; /* Agregado para alinear verticalmente */
+        }
+
+        h1, p, ul {
+            color: #2c3e50; /* Azul oscuro */
+            text-align: center; /* Agregado para centrar el texto */
+        }
+
+        p#mensaje {
+            margin-bottom: 20px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        a {
+            color: #3498db;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>Resultados Del Alta de Vendedores</h1>
+
+    <p id="mensaje">{{ mensaje }}</p>
+
+    {% if nuevo_vendedor %}
+        <p>Detalles del nuevo vendedor:</p>
+        <ul>
+            <li>Código: {{ nuevo_vendedor['Codigo'] }}</li>
+            <li>Nombre: {{ nuevo_vendedor['Nombre'] }}</li>
+            <li>NroDocumento: {{ nuevo_vendedor['NroDocumento'] }}</li>
+            <!-- Agrega más detalles según sea necesario -->
+        </ul>
+    {% endif %}
+
+    <p><a href="/">Volver a la consulta de vendedores</a></p>
+</body>
+</html>

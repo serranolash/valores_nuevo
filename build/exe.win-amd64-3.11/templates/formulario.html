@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alta de vendedor</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f0f8ff; /* Azul claro */
+      color: #333; /* Texto oscuro */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      flex-direction: column; /* Agregado para alinear verticalmente */
+    }
+
+    h1, label, input, select {
+      color: #2c3e50; /* Azul oscuro */
+      text-align: center; /* Agregado para centrar el texto */
+    }
+
+    .input-field {
+      display: block;
+      margin-bottom: 10px;
+      padding: 8px;
+      width: 100%;
+      box-sizing: border-box;
+    }
+
+    form {
+      width: 100%;
+      max-width: 400px;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+      margin-top: 20px;
+    }
+
+    input[type="submit"] {
+      background-color: #3498db;
+      color: #fff;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 16px;
+      margin-top: 20px;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #2980b9;
+    }
+  </style>
+</head>
+
+<body>
+  <a href="/" class="btn btn-primary">Volver al ínicio</a>
+  <h1>Alta de vendedor</h1>
+  <form method="post">
+
+    <label for="base">Base de alta:</label>
+    <select name="base" id="base" required class="input-field">
+      <option value="DEPOSEVN">DEPOSEVN</option>
+      <option value="DEPOFORT">DEPOFORT</option>
+    </select><br><br>
+
+    <label for="codigo">Código:</label>
+    <input type="text" name="codigo" id="codigo" required class="input-field"><br><br>
+
+    <label for="nombre">Nombre:</label>
+    <input type="text" name="nombre" id="nombre" required class="input-field"><br><br>
+
+    <label for="nro_documento">Número de documento:</label>
+    <input type="text" name="nro_documento" id="nro_documento" required class="input-field"><br><br>
+
+    <input type="submit" value="Enviar">
+  </form>
+
+  <script>
+    // Aquí puedes añadir cualquier script que necesites
+  </script>
+
+</body>
+
+</html>

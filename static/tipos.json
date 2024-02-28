@@ -1,0 +1,48 @@
+{
+  "opciones": [
+    {
+      "codigo": "Código",
+      "nombre": "Descripción"
+    },
+    {
+      "codigo": "0",
+      "nombre": "Unico"
+    },
+    {
+      "codigo": "1",
+      "nombre": "Blanco"
+    },
+    {
+      "codigo": "2",
+      "nombre": "Negro"
+    },
+    {
+      "codigo": "3",
+      "nombre": "Azul"
+    },
+    {
+      "codigo": "4",
+      "nombre": "Amarillo"
+    },
+    {
+      "codigo": "5",
+      "nombre": "Verde"
+    },
+    {
+      "codigo": "6",
+      "nombre": "Gris"
+    },
+    {
+      "codigo": "7",
+      "nombre": "Rosa"
+    },
+    {
+      "codigo": "8",
+      "nombre": "Rojo"
+    },
+    {
+      "codigo": "9",
+      "nombre": "Violeta"
+    }
+  ]
+}

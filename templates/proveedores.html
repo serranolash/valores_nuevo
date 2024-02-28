@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alta de Proveedor</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f8ff; /* Azul claro */
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 20vh;
+           
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+            font-size: 24px; /* Ajusta el tamaño según tu preferencia */
+            margin-bottom: 20px;
+        }
+
+        form {
+            width: 100%; /* Ajusta el ancho del formulario según tus necesidades */
+            max-width: 700px; /* Puedes ajustar este valor según tus necesidades */
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            box-sizing: border-box;
+            margin: 0 auto; /* Centrar el formulario */
+            display: flex;
+            flex-wrap: wrap; /* Permite que los elementos se envuelvan si no caben en una sola fila */
+            justify-content: space-around; /* Espaciado uniforme entre los elementos */
+            border: 15px solid #1941c6;
+            font-size: 16px;            
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: bold;          
+          
+            
+        }
+
+        .form-column {
+            width: 48%; /* Ajusta el ancho de cada columna */
+            box-sizing: border-box;
+            margin: auto;
+        }
+
+        .form-column * {
+            width: 100%;
+            box-sizing: border-box;
+            margin-bottom: 10px;
+        }
+
+        input {
+            padding: 2px;
+            border: 8px solid #ccc;
+            border-radius: 8px;
+            box-sizing: border-box;
+            margin: 0.5%
+        }
+
+        button {
+            width: 25%;
+            background-color: #132dd6; /* Verde */
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 12px;
+            align-content: center;
+            align-items: center;
+        }
+
+        button:hover {
+            background-color: #8ca045; /* Verde más oscuro al pasar el mouse */
+        }
+    </style>
+</head>
+<body>
+    <h2>Alta de Proveedor</h2>
+
+    <form method="post" action="{{ url_for('alta_proveedor') }}">
+        <label for="codigo">Código:</label>
+        <input type="text" id="codigo" name="codigo" required>
+
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="base_de_datos">Base de Datos:</label>
+            <select name="base_de_datos" required>
+                <option value="DEPOFORT">DEPOFORT</option>
+                <option value="DEPOSEVN">DEPOSEVN</option>
+            </select>
+
+        <!-- Agrega más campos según sea necesario -->
+
+        <button type="submit">Crear Proveedor</button>
+    </form>
+    <div id="back-to-home">
+
+        <a href="/index">Regresar a la Carga de Articulos</a>
+    </div>
+
+    <div id="flash-messages">
+        {% with messages = get_flashed_messages() %}
+            {% if messages %}
+                <ul class="flash-messages">
+                    {% for message in messages %}
+                        <li>{{ message }}</li>
+                    {% endfor %}
+                </ul>
+            {% endif %}
+        {% endwith %}
+    </div>
+
+    <!-- Agrega aquí la sección para mostrar mensajes flash si lo deseas -->
+
+</body>
+</html>

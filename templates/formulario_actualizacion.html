@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actualización de Precios</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0f8ff; /* Azul claro */
+            color: #333; /* Texto oscuro */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+
+        #form-container {
+            width: 100%;
+            max-width: 600px;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            text-align: center; /* Añadido para centrar el contenido */
+        }
+        #back-to-home a {
+            color: #3498db;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+
+        h1 {
+            color: #2c3e50; /* Azul oscuro para el encabezado principal */
+            margin-bottom: 30px; /* Agregado para separar el título del formulario */
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+            color: #555;
+        }
+
+        select, input[type="text"], input[type="number"] {
+            width: calc(100% - 22px);
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #3498db;
+            color: #fff;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            margin: 20px 0;
+        }
+
+        button:hover {
+            background-color: #2980b9;
+        }
+    </style>
+</head>
+<body>
+    <div id="form-container">
+        <h1>Actualización de Precios</h1>
+        <form method="post" action="/actualizar_precios">
+            <label for="base_de_datos">Base de Datos:</label>
+            <select name="base_de_datos" required>
+                <option value="DEPOSEVN">DEPOSEVN</option>
+                <option value="DEPOFORT">DEPOFORT</option>
+            </select>
+            <br>
+            <label for="codigo">Código:</label>
+            <input type="text" name="codigo" required>
+            <br>
+            <label for="articulo">Artículo:</label>
+            <input type="text" name="articulo" required>
+            <br>
+            <label for="listadeprecio">Lista de Precio:</label>
+            <input type="text" name="listadeprecio" required>
+            <br>
+            <label for="preciodirecto">Precio Directo:</label>
+            <input type="number" name="preciodirecto" required>
+            <br>
+            <button type="submit">Actualizar Precio</button>
+        </form>
+        <div id="back-to-home">
+            <a href="/">Regresar a Inicio</a>
+        </div>
+    </div>
+</body>
+</html>

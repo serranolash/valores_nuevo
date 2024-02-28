@@ -1,0 +1,1608 @@
+{
+  "opciones": [
+      {
+      "codigo": "144",
+      "nombre": "MONO"
+    },
+    {
+      "codigo": "157",
+      "nombre": "Rueda abdominal"
+    },
+    {
+      "codigo": "159",
+      "nombre": "BICICLETA"
+    },
+    {
+      "codigo": "187",
+      "nombre": "CONO"
+    },
+    {
+      "codigo": "22",
+      "nombre": "Talles Bermudas"
+    },
+    {
+      "codigo": "A",
+      "nombre": "TALLES MEDIAS"
+    },
+    {
+      "codigo": "A1",
+      "nombre": "MEDIAS DE FUTBOL"
+    },
+    {
+      "codigo": "A2",
+      "nombre": "MEDIAS ZOQUETES"
+    },
+    {
+      "codigo": "A3",
+      "nombre": "MEDIAS INVISIBLES"
+    },
+    {
+      "codigo": "A4",
+      "nombre": "MEDIAS BIPACK"
+    },
+    {
+      "codigo": "A5",
+      "nombre": "MEDIAS TRIPACK"
+    },
+    {
+      "codigo": "B",
+      "nombre": "TALLES ACCESORIOS"
+    },
+    {
+      "codigo": "B 1",
+      "nombre": "JIBBITZ"
+    },
+    {
+      "codigo": "B I",
+      "nombre": "TOBILLERAS"
+    },
+    {
+      "codigo": "B II",
+      "nombre": "RODILLERAS"
+    },
+    {
+      "codigo": "B00",
+      "nombre": "MORRAL"
+    },
+    {
+      "codigo": "B1",
+      "nombre": "PLANTILLAS"
+    },
+    {
+      "codigo": "B10",
+      "nombre": "PELOTAS BASKET"
+    },
+    {
+      "codigo": "B100",
+      "nombre": "PALETA DE PADDLE"
+    },
+    {
+      "codigo": "B101",
+      "nombre": "PALETA PING PONG"
+    },
+    {
+      "codigo": "B102",
+      "nombre": "RAQUETAS"
+    },
+    {
+      "codigo": "B103",
+      "nombre": "GUANTES DE LANA"
+    },
+    {
+      "codigo": "B104",
+      "nombre": "GUANTES NIEVE"
+    },
+    {
+      "codigo": "B105",
+      "nombre": "PELOTAS DE PING PONG"
+    },
+    {
+      "codigo": "B106",
+      "nombre": "GUANTE VALE TODO"
+    },
+    {
+      "codigo": "B11",
+      "nombre": "PELOTAS RUGBY"
+    },
+    {
+      "codigo": "B110",
+      "nombre": "CARTUCHERA"
+    },
+    {
+      "codigo": "B111",
+      "nombre": "BILLETERA"
+    },
+    {
+      "codigo": "B112",
+      "nombre": "FUNDA HOCKEY"
+    },
+    {
+      "codigo": "B113",
+      "nombre": "BOTINERO"
+    },
+    {
+      "codigo": "B114",
+      "nombre": "RI\u00d1ONERA"
+    },
+    {
+      "codigo": "B115",
+      "nombre": "MOCHILA"
+    },
+    {
+      "codigo": "B116",
+      "nombre": "BOLSO"
+    },
+    {
+      "codigo": "B117",
+      "nombre": "FUNDA LAPTOP"
+    },
+    {
+      "codigo": "B118",
+      "nombre": "BOLSO HOCKEY"
+    },
+    {
+      "codigo": "B119",
+      "nombre": "MORRAL"
+    },
+    {
+      "codigo": "B12",
+      "nombre": "BOCHA HOCKEY"
+    },
+    {
+      "codigo": "B120",
+      "nombre": "RAQUETERO"
+    },
+    {
+      "codigo": "B121",
+      "nombre": "VALIJA"
+    },
+    {
+      "codigo": "B122",
+      "nombre": "CARTERA"
+    },
+    {
+      "codigo": "B123",
+      "nombre": "PORTA CELULAR"
+    },
+    {
+      "codigo": "B124",
+      "nombre": "LUNCHERAS"
+    },
+    {
+      "codigo": "B125",
+      "nombre": "PELOTA GYM BALL"
+    },
+    {
+      "codigo": "B126",
+      "nombre": "BARRA"
+    },
+    {
+      "codigo": "B13",
+      "nombre": "GUANTES ARQUERO"
+    },
+    {
+      "codigo": "B130",
+      "nombre": "CASCO RUGBY"
+    },
+    {
+      "codigo": "B131",
+      "nombre": "CASCO PROTECCION"
+    },
+    {
+      "codigo": "B132",
+      "nombre": "CABEZAL"
+    },
+    {
+      "codigo": "B133",
+      "nombre": "HOMBRERA DE RUGBY"
+    },
+    {
+      "codigo": "B134",
+      "nombre": "TEE RUGBY"
+    },
+    {
+      "codigo": "B135",
+      "nombre": "CODERAS NEOPRENE"
+    },
+    {
+      "codigo": "B14",
+      "nombre": "CANILLERAS"
+    },
+    {
+      "codigo": "B140",
+      "nombre": "AEROSOL"
+    },
+    {
+      "codigo": "B141",
+      "nombre": "CREMA"
+    },
+    {
+      "codigo": "B142",
+      "nombre": "SHAMPOO"
+    },
+    {
+      "codigo": "B143",
+      "nombre": "DESODORANTE"
+    },
+    {
+      "codigo": "B144",
+      "nombre": "TOALLA"
+    },
+    {
+      "codigo": "B15",
+      "nombre": "GORRAS"
+    },
+    {
+      "codigo": "B150",
+      "nombre": "ARO DE BASQUET"
+    },
+    {
+      "codigo": "B16",
+      "nombre": "ANTIPARRAS"
+    },
+    {
+      "codigo": "B160",
+      "nombre": "KIT PROTECCION"
+    },
+    {
+      "codigo": "B17",
+      "nombre": "GUANTE GYM"
+    },
+    {
+      "codigo": "B170",
+      "nombre": "TAPONES DE ALUMINIO"
+    },
+    {
+      "codigo": "B18",
+      "nombre": "PALETA DE PADEL"
+    },
+    {
+      "codigo": "B180",
+      "nombre": "TAPONES DE PLASTICO"
+    },
+    {
+      "codigo": "B19",
+      "nombre": "PALO HOCKEY"
+    },
+    {
+      "codigo": "B190",
+      "nombre": "BUFANDA"
+    },
+    {
+      "codigo": "B2",
+      "nombre": "TALLES BOLSO/CARTERA"
+    },
+    {
+      "codigo": "B20",
+      "nombre": "BOTINERO"
+    },
+    {
+      "codigo": "B200",
+      "nombre": "RELOJ"
+    },
+    {
+      "codigo": "B21",
+      "nombre": "GUANTE GOLF"
+    },
+    {
+      "codigo": "B210",
+      "nombre": "ANTIPARRAS"
+    },
+    {
+      "codigo": "B211",
+      "nombre": "TAPONES DE OIDO"
+    },
+    {
+      "codigo": "B212",
+      "nombre": "TAPON NASAL"
+    },
+    {
+      "codigo": "B213",
+      "nombre": "GORRA LYCRA"
+    },
+    {
+      "codigo": "B214",
+      "nombre": "GORRA SILICONA"
+    },
+    {
+      "codigo": "B215",
+      "nombre": "GORRA CAP"
+    },
+    {
+      "codigo": "B216",
+      "nombre": "GORRO LANA"
+    },
+    {
+      "codigo": "B217",
+      "nombre": "CUELLOS LANA/NIEVE"
+    },
+    {
+      "codigo": "B22",
+      "nombre": "PELOTA GOLF"
+    },
+    {
+      "codigo": "B220",
+      "nombre": "TIRA DE SILICONA"
+    },
+    {
+      "codigo": "B221",
+      "nombre": "FLOTADOR"
+    },
+    {
+      "codigo": "B222",
+      "nombre": "ALETAS"
+    },
+    {
+      "codigo": "B23",
+      "nombre": "GUANTE HOCKEY"
+    },
+    {
+      "codigo": "B230",
+      "nombre": "GRIP"
+    },
+    {
+      "codigo": "B231",
+      "nombre": "ANTIVIBRADOR"
+    },
+    {
+      "codigo": "B232",
+      "nombre": "ANTEOJOS/LENTES"
+    },
+    {
+      "codigo": "B24",
+      "nombre": "ri\u00f1onera"
+    },
+    {
+      "codigo": "B240",
+      "nombre": "INFLADOR"
+    },
+    {
+      "codigo": "B250",
+      "nombre": "SILBATO"
+    },
+    {
+      "codigo": "B26",
+      "nombre": "PESA RUSA"
+    },
+    {
+      "codigo": "B260",
+      "nombre": "TARJETA DE ARBITRO"
+    },
+    {
+      "codigo": "B27",
+      "nombre": "MANCUERNAS"
+    },
+    {
+      "codigo": "B270",
+      "nombre": "LLAVERO"
+    },
+    {
+      "codigo": "B28",
+      "nombre": "DISCOS"
+    },
+    {
+      "codigo": "B280",
+      "nombre": "SILLAS"
+    },
+    {
+      "codigo": "B29",
+      "nombre": "TIRABAND"
+    },
+    {
+      "codigo": "B290",
+      "nombre": "CINTURONES"
+    },
+    {
+      "codigo": "B3",
+      "nombre": "SCULLCANDY"
+    },
+    {
+      "codigo": "B30",
+      "nombre": "PALO DE HOCKEY"
+    },
+    {
+      "codigo": "B300",
+      "nombre": "SKATE"
+    },
+    {
+      "codigo": "B301",
+      "nombre": "ROLLERS"
+    },
+    {
+      "codigo": "B302",
+      "nombre": "PATINES"
+    },
+    {
+      "codigo": "B303",
+      "nombre": "LONGBOARD"
+    },
+    {
+      "codigo": "B304",
+      "nombre": "MONOPATIN"
+    },
+    {
+      "codigo": "B305",
+      "nombre": "FUNDA SKATE"
+    },
+    {
+      "codigo": "B31",
+      "nombre": "BOLSA BOX"
+    },
+    {
+      "codigo": "B310",
+      "nombre": "GIFT VOUCHER"
+    },
+    {
+      "codigo": "B32",
+      "nombre": "TRAMPOLIN"
+    },
+    {
+      "codigo": "B320",
+      "nombre": "SOGA"
+    },
+    {
+      "codigo": "B330",
+      "nombre": "PLANTILLA"
+    },
+    {
+      "codigo": "B340",
+      "nombre": "AURICULARES"
+    },
+    {
+      "codigo": "B350",
+      "nombre": "CORDONES/HICKIES"
+    },
+    {
+      "codigo": "B360",
+      "nombre": "PREMIOS"
+    },
+    {
+      "codigo": "B370",
+      "nombre": "BOTELLAS"
+    },
+    {
+      "codigo": "B371",
+      "nombre": "VASOS TERMICOS"
+    },
+    {
+      "codigo": "B372",
+      "nombre": "TERMOS"
+    },
+    {
+      "codigo": "B380",
+      "nombre": "PESAS"
+    },
+    {
+      "codigo": "B390",
+      "nombre": "COLCHONETAS"
+    },
+    {
+      "codigo": "B4",
+      "nombre": "MOCHILAS"
+    },
+    {
+      "codigo": "B40",
+      "nombre": "GUANTE DE HOCKEY"
+    },
+    {
+      "codigo": "B41",
+      "nombre": "GUANTES DE ARQUERO"
+    },
+    {
+      "codigo": "B42",
+      "nombre": "GUANTE CICLISMO"
+    },
+    {
+      "codigo": "B43",
+      "nombre": "GUANTE GOLF"
+    },
+    {
+      "codigo": "B44",
+      "nombre": "GUANTE GYM"
+    },
+    {
+      "codigo": "B45",
+      "nombre": "GUANTE DE BOX"
+    },
+    {
+      "codigo": "B46",
+      "nombre": "PALMETA DE BOX"
+    },
+    {
+      "codigo": "B47",
+      "nombre": "GUANTE RUGBY"
+    },
+    {
+      "codigo": "B48",
+      "nombre": "GUANTE MMA"
+    },
+    {
+      "codigo": "B49",
+      "nombre": "GUANTE KARATE"
+    },
+    {
+      "codigo": "B5",
+      "nombre": "PELOTAS FUTBOL"
+    },
+    {
+      "codigo": "B50",
+      "nombre": "VENDAS"
+    },
+    {
+      "codigo": "B51",
+      "nombre": "TOBILLERA ELASTICA"
+    },
+    {
+      "codigo": "B52",
+      "nombre": "TOBILLERA NEOPRENE"
+    },
+    {
+      "codigo": "B53",
+      "nombre": "RODILLERA ELASTICA"
+    },
+    {
+      "codigo": "B54",
+      "nombre": "RODILLERA NEOPRENE"
+    },
+    {
+      "codigo": "B55",
+      "nombre": "MU\u00d1EQUERA ELASTICA"
+    },
+    {
+      "codigo": "B56",
+      "nombre": "MU\u00d1EQUERA NEOPRENE"
+    },
+    {
+      "codigo": "B57",
+      "nombre": "RODILLERA ELASTICA"
+    },
+    {
+      "codigo": "B58",
+      "nombre": "RODILLERA NEOPRENE"
+    },
+    {
+      "codigo": "B59",
+      "nombre": "RODILLERA ANTICHOQUE"
+    },
+    {
+      "codigo": "B6",
+      "nombre": "PELOTAS VOLLEY"
+    },
+    {
+      "codigo": "B60",
+      "nombre": "CODERA ELASTICA"
+    },
+    {
+      "codigo": "B61",
+      "nombre": "CODERA NEOPRENE"
+    },
+    {
+      "codigo": "B62",
+      "nombre": "MUSLERA ELASTICA"
+    },
+    {
+      "codigo": "B63",
+      "nombre": "MUSLERA NEOPRENE"
+    },
+    {
+      "codigo": "B64",
+      "nombre": "GEMELERA ELASTICA"
+    },
+    {
+      "codigo": "B65",
+      "nombre": "GEMELERA NEOPRENE"
+    },
+    {
+      "codigo": "B66",
+      "nombre": "FAJA ELASTICA"
+    },
+    {
+      "codigo": "B67",
+      "nombre": "FAJA NEOPRENE"
+    },
+    {
+      "codigo": "B68",
+      "nombre": "PROTECTOR BUCAL"
+    },
+    {
+      "codigo": "B69",
+      "nombre": "TIBIALES"
+    },
+    {
+      "codigo": "B7",
+      "nombre": "PELOTAS HANDBALL"
+    },
+    {
+      "codigo": "B70",
+      "nombre": "CANILLERAS"
+    },
+    {
+      "codigo": "B71",
+      "nombre": "VINCHAS"
+    },
+    {
+      "codigo": "B72",
+      "nombre": "MU\u00d1EQUERA DE TOALLA"
+    },
+    {
+      "codigo": "B73",
+      "nombre": "TOBILLERA C/PESO"
+    },
+    {
+      "codigo": "B8",
+      "nombre": "PELOTAS TENNIS"
+    },
+    {
+      "codigo": "B80",
+      "nombre": "CINTA DE CAPITAN"
+    },
+    {
+      "codigo": "B9",
+      "nombre": "PELOTAS PADDLE"
+    },
+    {
+      "codigo": "B90",
+      "nombre": "BOCHA HOCKEY"
+    },
+    {
+      "codigo": "B91",
+      "nombre": "PELOTA DE PADDLE"
+    },
+    {
+      "codigo": "B92",
+      "nombre": "PELOTA DE VOLLEY"
+    },
+    {
+      "codigo": "B93",
+      "nombre": "PELOTA DE FUTBOL"
+    },
+    {
+      "codigo": "B94",
+      "nombre": "PELOTA DE BASQUET"
+    },
+    {
+      "codigo": "B95",
+      "nombre": "PELOTA DE RUGBY"
+    },
+    {
+      "codigo": "B96",
+      "nombre": "PELOTA HANDBALL"
+    },
+    {
+      "codigo": "B97",
+      "nombre": "PELOTA DE TENIS"
+    },
+    {
+      "codigo": "B98",
+      "nombre": "PELOTA GOLF"
+    },
+    {
+      "codigo": "B99",
+      "nombre": "PERA"
+    },
+    {
+      "codigo": "B9I",
+      "nombre": "GORROS"
+    },
+    {
+      "codigo": "C",
+      "nombre": "TALLES ACCESORIOS II"
+    },
+    {
+      "codigo": "C I",
+      "nombre": "RELOJES"
+    },
+    {
+      "codigo": "C II",
+      "nombre": "GUANTES"
+    },
+    {
+      "codigo": "C1",
+      "nombre": "voucher"
+    },
+    {
+      "codigo": "C10",
+      "nombre": "BEANIES"
+    },
+    {
+      "codigo": "C9",
+      "nombre": "VALIJA"
+    },
+    {
+      "codigo": "D",
+      "nombre": "TALLES SHORT"
+    },
+    {
+      "codigo": "D4",
+      "nombre": "BOXER"
+    },
+    {
+      "codigo": "D5",
+      "nombre": "POLLERAS"
+    },
+    {
+      "codigo": "D7",
+      "nombre": "VESTIDO"
+    },
+    {
+      "codigo": "E",
+      "nombre": "TALLES SHORT II"
+    },
+    {
+      "codigo": "E 2",
+      "nombre": "SHORT JEAN"
+    },
+    {
+      "codigo": "E2",
+      "nombre": "SHORT JOGGING"
+    },
+    {
+      "codigo": "F",
+      "nombre": "TALLES BERMUDAS"
+    },
+    {
+      "codigo": "F II",
+      "nombre": "TALLES BERMUDAS II"
+    },
+    {
+      "codigo": "G",
+      "nombre": "TALLES BERMUDAS II"
+    },
+    {
+      "codigo": "H",
+      "nombre": "TALLES CALZAS"
+    },
+    {
+      "codigo": "H1",
+      "nombre": "CALZA CORTA"
+    },
+    {
+      "codigo": "H2",
+      "nombre": "CALZAS 3/4"
+    },
+    {
+      "codigo": "H3",
+      "nombre": "CALZA COMPRESION CORTA"
+    },
+    {
+      "codigo": "H4",
+      "nombre": "CALZA COMPRESION LARGA"
+    },
+    {
+      "codigo": "I",
+      "nombre": "TALLES MALLAS"
+    },
+    {
+      "codigo": "I2",
+      "nombre": "TALLES MALLAS 2"
+    },
+    {
+      "codigo": "I3",
+      "nombre": "CORPI\u00d1O DEPORTIVO"
+    },
+    {
+      "codigo": "I4",
+      "nombre": "CORPI\u00d1O DEPORTIVO"
+    },
+    {
+      "codigo": "J",
+      "nombre": "TALLES REMERAS-MUSCULOSAS"
+    },
+    {
+      "codigo": "J II",
+      "nombre": "TALLES REMERAS-MUSCULOSAS II"
+    },
+    {
+      "codigo": "J1",
+      "nombre": "REMERA TERMICA MANGA CORTA"
+    },
+    {
+      "codigo": "J2",
+      "nombre": "REMERA TERMICA MANGA LARGA"
+    },
+    {
+      "codigo": "J3",
+      "nombre": "MUSCULOSA TERMICA"
+    },
+    {
+      "codigo": "J4",
+      "nombre": "VESTIDO"
+    },
+    {
+      "codigo": "J5",
+      "nombre": "MUSCULOSA"
+    },
+    {
+      "codigo": "JIII",
+      "nombre": "REMERAS TALLES ESPECIALES"
+    },
+    {
+      "codigo": "JZ",
+      "nombre": "TALLES REMERAS-MUSCULOSAS"
+    },
+    {
+      "codigo": "K",
+      "nombre": "TALLES CHOMBAS"
+    },
+    {
+      "codigo": "K II",
+      "nombre": "TALLES CAMISAS"
+    },
+    {
+      "codigo": "L",
+      "nombre": "TALLES CAMISETA"
+    },
+    {
+      "codigo": "L1",
+      "nombre": "CAMISA"
+    },
+    {
+      "codigo": "LL",
+      "nombre": "TALLES CAMISETAS II"
+    },
+    {
+      "codigo": "M",
+      "nombre": "TALLES BUZOS"
+    },
+    {
+      "codigo": "M1",
+      "nombre": "SWEATER"
+    },
+    {
+      "codigo": "M2",
+      "nombre": "BUZO ENTRENAMIENTO S/M"
+    },
+    {
+      "codigo": "N",
+      "nombre": "TALLES BUZOS II"
+    },
+    {
+      "codigo": "N1",
+      "nombre": "TALLES PANTALONES"
+    },
+    {
+      "codigo": "N2",
+      "nombre": "TALLES PANTALONES II"
+    },
+    {
+      "codigo": "N3",
+      "nombre": "JEAN"
+    },
+    {
+      "codigo": "N4",
+      "nombre": "PANTALON CHICOS"
+    },
+    {
+      "codigo": "O",
+      "nombre": "TALLES CAMPERAS"
+    },
+    {
+      "codigo": "O 1",
+      "nombre": "CAMPERA CHICOS"
+    },
+    {
+      "codigo": "O II",
+      "nombre": "CAMPERONES,SNOW"
+    },
+    {
+      "codigo": "O2",
+      "nombre": "CHALECO"
+    },
+    {
+      "codigo": "P",
+      "nombre": "TALLES COMUNES"
+    },
+    {
+      "codigo": "P1",
+      "nombre": "TALLES CONJUNTOS II"
+    },
+    {
+      "codigo": "P2",
+      "nombre": "TALLES CONJUNTOS CHICOS"
+    },
+    {
+      "codigo": "P3",
+      "nombre": "CONJUNTOS CHICOS"
+    },
+    {
+      "codigo": "Q",
+      "nombre": "TALLES SANDALIAS"
+    },
+    {
+      "codigo": "Q1",
+      "nombre": "TALLES SANDALIAS DICONTINUOS"
+    },
+    {
+      "codigo": "Q10",
+      "nombre": "PUMA HOMBRE UK"
+    },
+    {
+      "codigo": "Q11",
+      "nombre": "ADIDAS HOMBRE UK"
+    },
+    {
+      "codigo": "Q12",
+      "nombre": "REEBOK HOMBRE UK"
+    },
+    {
+      "codigo": "Q13",
+      "nombre": "NIKE HOMBRE US"
+    },
+    {
+      "codigo": "Q14",
+      "nombre": "TOPPER HOMBRE"
+    },
+    {
+      "codigo": "Q15",
+      "nombre": "FILA HOMBRE"
+    },
+    {
+      "codigo": "Q16",
+      "nombre": "DC HOMBRE US"
+    },
+    {
+      "codigo": "Q17",
+      "nombre": "VANS HOMBRE US"
+    },
+    {
+      "codigo": "Q18",
+      "nombre": "CONVERSE HOMBRE US"
+    },
+    {
+      "codigo": "Q19",
+      "nombre": "NEW BALANCE HOMBRE US"
+    },
+    {
+      "codigo": "Q20",
+      "nombre": "ASICS HOMBRE UK"
+    },
+    {
+      "codigo": "Q21",
+      "nombre": "UMBRO HOMBRE US"
+    },
+    {
+      "codigo": "Q22",
+      "nombre": "UMBRO HOMBRE"
+    },
+    {
+      "codigo": "Q23",
+      "nombre": "LECOQ HOMBRE"
+    },
+    {
+      "codigo": "Q24",
+      "nombre": "CROCS HOMBRE US"
+    },
+    {
+      "codigo": "Q25",
+      "nombre": "OLYMPIKUS HOMBRE"
+    },
+    {
+      "codigo": "Q26",
+      "nombre": "RIDER HOMBRE"
+    },
+    {
+      "codigo": "Q27",
+      "nombre": "HAVAIANAS HOMBRE"
+    },
+    {
+      "codigo": "Q28",
+      "nombre": "TOPPER UNISEX US"
+    },
+    {
+      "codigo": "Q3",
+      "nombre": "ROLLERS"
+    },
+    {
+      "codigo": "Q30",
+      "nombre": "UNDER ARMOUR HOMBRE US"
+    },
+    {
+      "codigo": "Q31",
+      "nombre": "KAPPA HOMBRE"
+    },
+    {
+      "codigo": "Q34",
+      "nombre": "DIPORTTO HOMBRE"
+    },
+    {
+      "codigo": "Q35",
+      "nombre": "JAGUAR HOMBRE"
+    },
+    {
+      "codigo": "Q36",
+      "nombre": "DAVOR HOMBRE"
+    },
+    {
+      "codigo": "Q37",
+      "nombre": "LA GEAR HOMBRE"
+    },
+    {
+      "codigo": "Q38",
+      "nombre": "AVIA HOMBRE"
+    },
+    {
+      "codigo": "Q39",
+      "nombre": "HEAD HOMBRE"
+    },
+    {
+      "codigo": "Q4",
+      "nombre": "PATINES"
+    },
+    {
+      "codigo": "Q40",
+      "nombre": "ATOMIK HOMBRE"
+    },
+    {
+      "codigo": "Q5",
+      "nombre": "SKATE  MONOPATIN"
+    },
+    {
+      "codigo": "R",
+      "nombre": "TALLES SANDALIAS II"
+    },
+    {
+      "codigo": "R1",
+      "nombre": "TALLES SANDALIAS II DISCONTINUO"
+    },
+    {
+      "codigo": "R10",
+      "nombre": "PUMA MUJER UK"
+    },
+    {
+      "codigo": "R11",
+      "nombre": "ADIDAS MUJER UK"
+    },
+    {
+      "codigo": "R12",
+      "nombre": "REEBOK MUJER UK"
+    },
+    {
+      "codigo": "R13",
+      "nombre": "NIKE MUJER US"
+    },
+    {
+      "codigo": "R14",
+      "nombre": "TOPPER MUJER"
+    },
+    {
+      "codigo": "R15",
+      "nombre": "FILA MUJER"
+    },
+    {
+      "codigo": "R16",
+      "nombre": "DC MUJER US"
+    },
+    {
+      "codigo": "R17",
+      "nombre": "VANS MUJER US"
+    },
+    {
+      "codigo": "R18",
+      "nombre": "CONVERSE MUJER US"
+    },
+    {
+      "codigo": "R19",
+      "nombre": "NEW BALANCE MUJER US"
+    },
+    {
+      "codigo": "R20",
+      "nombre": "ASICS MUJER UK"
+    },
+    {
+      "codigo": "R21",
+      "nombre": "UMBRO MUJER"
+    },
+    {
+      "codigo": "R22",
+      "nombre": "LECOQ MUJER"
+    },
+    {
+      "codigo": "R23",
+      "nombre": "CROCS MUJER US"
+    },
+    {
+      "codigo": "R24",
+      "nombre": "REEBOK MUJER AR"
+    },
+    {
+      "codigo": "R25",
+      "nombre": "OLYMPIKUS MUJER"
+    },
+    {
+      "codigo": "R26",
+      "nombre": "RIDER MUJER"
+    },
+    {
+      "codigo": "R27",
+      "nombre": "HAVAIANAS MUJER"
+    },
+    {
+      "codigo": "R30",
+      "nombre": "UNDER ARMOUR MUJER US"
+    },
+    {
+      "codigo": "R31",
+      "nombre": "KAPPA MUJER"
+    },
+    {
+      "codigo": "R34",
+      "nombre": "DIPORTTO MUJER"
+    },
+    {
+      "codigo": "R35",
+      "nombre": "JAGUAR MUJER"
+    },
+    {
+      "codigo": "R36",
+      "nombre": "DAVOR MUJER"
+    },
+    {
+      "codigo": "R37",
+      "nombre": "LA GEAR MUJER"
+    },
+    {
+      "codigo": "R38",
+      "nombre": "AVIA MUJER"
+    },
+    {
+      "codigo": "R39",
+      "nombre": "HEAD MUJER"
+    },
+    {
+      "codigo": "R40",
+      "nombre": "ATOMIK MUJER"
+    },
+    {
+      "codigo": "S",
+      "nombre": "TALLES CALZADOS AMERICANOS"
+    },
+    {
+      "codigo": "S1",
+      "nombre": "TALLES CALZADOS AMERICANOS II"
+    },
+    {
+      "codigo": "S10",
+      "nombre": "PUMA UNISEX UK"
+    },
+    {
+      "codigo": "S11",
+      "nombre": "ADIDAS UNISEX UK"
+    },
+    {
+      "codigo": "S12",
+      "nombre": "REEBOK UNISEX UK"
+    },
+    {
+      "codigo": "S13",
+      "nombre": "NIKE UNISEX US"
+    },
+    {
+      "codigo": "S14",
+      "nombre": "TOPPER UNISEX II"
+    },
+    {
+      "codigo": "S15",
+      "nombre": "FILA UNISEX"
+    },
+    {
+      "codigo": "S17",
+      "nombre": "VANS UNISEX US"
+    },
+    {
+      "codigo": "S18",
+      "nombre": "CONVERSE UNISEX US"
+    },
+    {
+      "codigo": "S19",
+      "nombre": "NEW BALANCE UNISEX US"
+    },
+    {
+      "codigo": "S2",
+      "nombre": "TALLES CALZADO AMERICANO DISCONTINUO"
+    },
+    {
+      "codigo": "S20",
+      "nombre": "ASICS UNISEX UK"
+    },
+    {
+      "codigo": "S22",
+      "nombre": "LECOQ UNISEX"
+    },
+    {
+      "codigo": "S23",
+      "nombre": "CROCS UNISEX US"
+    },
+    {
+      "codigo": "S24",
+      "nombre": "REEBOK UNISEX II"
+    },
+    {
+      "codigo": "S25",
+      "nombre": "OLYMPIKUS UNISEX"
+    },
+    {
+      "codigo": "S26",
+      "nombre": "RIDER UNISEX"
+    },
+    {
+      "codigo": "S27",
+      "nombre": "HAVAIANAS UNISEX"
+    },
+    {
+      "codigo": "S28",
+      "nombre": "CONVERSE UNISEX II"
+    },
+    {
+      "codigo": "S29",
+      "nombre": "PUMA UNISEX II"
+    },
+    {
+      "codigo": "S3",
+      "nombre": "TALLES CALZADO AMERICANOS II DISC."
+    },
+    {
+      "codigo": "S30",
+      "nombre": "UNDER ARMOUR UNISEX US"
+    },
+    {
+      "codigo": "S31",
+      "nombre": "KAPPA UNISEX"
+    },
+    {
+      "codigo": "S34",
+      "nombre": "DIPORTTO UNISEX"
+    },
+    {
+      "codigo": "S35",
+      "nombre": "JAGUAR UNISEX"
+    },
+    {
+      "codigo": "S36",
+      "nombre": "DAVOR UNISEX"
+    },
+    {
+      "codigo": "S37",
+      "nombre": "LA GEAR UNISEX"
+    },
+    {
+      "codigo": "S38",
+      "nombre": "AVIA UNISEX"
+    },
+    {
+      "codigo": "S39",
+      "nombre": "HEAD UNISEX"
+    },
+    {
+      "codigo": "S4",
+      "nombre": "TALLES CALZADOS AMERICANOSIII"
+    },
+    {
+      "codigo": "S40",
+      "nombre": "ATOMIK UNISEX"
+    },
+    {
+      "codigo": "S5",
+      "nombre": "TALLES AMERICANOS CHICOS 5"
+    },
+    {
+      "codigo": "SA",
+      "nombre": "TALLES CALZADOS ARGENTINOS"
+    },
+    {
+      "codigo": "T",
+      "nombre": "TALLES CALZADOS EUROPEOS CHICOS"
+    },
+    {
+      "codigo": "T1",
+      "nombre": "TALLES CALZADO EUROPEOS CHICOS DISC"
+    },
+    {
+      "codigo": "T10",
+      "nombre": "PUMA BABY"
+    },
+    {
+      "codigo": "T11",
+      "nombre": "PUMA BABY II UK"
+    },
+    {
+      "codigo": "T12",
+      "nombre": "ADIDAS BABY UK"
+    },
+    {
+      "codigo": "T13",
+      "nombre": "REEBOK BABY UK"
+    },
+    {
+      "codigo": "T14",
+      "nombre": "NIKE BABY US"
+    },
+    {
+      "codigo": "T15",
+      "nombre": "TOPPER BABY"
+    },
+    {
+      "codigo": "T16",
+      "nombre": "FILA BABY"
+    },
+    {
+      "codigo": "T17",
+      "nombre": "DC BABY US"
+    },
+    {
+      "codigo": "T18",
+      "nombre": "VANS BABY US"
+    },
+    {
+      "codigo": "T19",
+      "nombre": "CONVERSE BABY US"
+    },
+    {
+      "codigo": "T22",
+      "nombre": "UMBRO BABY"
+    },
+    {
+      "codigo": "T23",
+      "nombre": "ADDNICE BABY"
+    },
+    {
+      "codigo": "T24",
+      "nombre": "MARVEL BABY"
+    },
+    {
+      "codigo": "T25",
+      "nombre": "ATOMIK BABY"
+    },
+    {
+      "codigo": "T26",
+      "nombre": "LECOQ BABY"
+    },
+    {
+      "codigo": "T27",
+      "nombre": "CROCS BABY"
+    },
+    {
+      "codigo": "T28",
+      "nombre": "RIDER BABY"
+    },
+    {
+      "codigo": "T29",
+      "nombre": "HAVAIANAS BABY"
+    },
+    {
+      "codigo": "T31",
+      "nombre": "KAPPA BABY"
+    },
+    {
+      "codigo": "T34",
+      "nombre": "DIPORTTO BABY"
+    },
+    {
+      "codigo": "T35",
+      "nombre": "JAGUAR BABY"
+    },
+    {
+      "codigo": "T36",
+      "nombre": "DAVOR BABY"
+    },
+    {
+      "codigo": "T37",
+      "nombre": "LA GEAR BABY"
+    },
+    {
+      "codigo": "T38",
+      "nombre": "AVIA BABY"
+    },
+    {
+      "codigo": "T39",
+      "nombre": "HEAD BABY"
+    },
+    {
+      "codigo": "U",
+      "nombre": "TALLES CALZADOS EUROPEOS"
+    },
+    {
+      "codigo": "U1",
+      "nombre": "TALLES CALZADO EUROPEOS DISC."
+    },
+    {
+      "codigo": "U10",
+      "nombre": "PUMA KIDS"
+    },
+    {
+      "codigo": "U11",
+      "nombre": "PUMA KIDS UK"
+    },
+    {
+      "codigo": "U12",
+      "nombre": "ADIDAS KIDS UK"
+    },
+    {
+      "codigo": "U13",
+      "nombre": "REEBOK KIDS UK"
+    },
+    {
+      "codigo": "U14",
+      "nombre": "REEBOK KIDS II"
+    },
+    {
+      "codigo": "U15",
+      "nombre": "NIKE KIDS US"
+    },
+    {
+      "codigo": "U16",
+      "nombre": "TOPPER KIDS"
+    },
+    {
+      "codigo": "U17",
+      "nombre": "FILA KIDS"
+    },
+    {
+      "codigo": "U18",
+      "nombre": "DC KIDS US"
+    },
+    {
+      "codigo": "U19",
+      "nombre": "VANS KIDS US"
+    },
+    {
+      "codigo": "U2",
+      "nombre": "TALLES CALZADOS EUROPEOS II"
+    },
+    {
+      "codigo": "U20",
+      "nombre": "CONVERSE KIDS US"
+    },
+    {
+      "codigo": "U21",
+      "nombre": "NEW BALANCE KIDS US"
+    },
+    {
+      "codigo": "U22",
+      "nombre": "ASICS KIDS UK"
+    },
+    {
+      "codigo": "U23",
+      "nombre": "UMBRO KIDS"
+    },
+    {
+      "codigo": "U24",
+      "nombre": "ADDNICE KIDS"
+    },
+    {
+      "codigo": "U25",
+      "nombre": "MARVEL KIDS"
+    },
+    {
+      "codigo": "U26",
+      "nombre": "ATOMIK KIDS"
+    },
+    {
+      "codigo": "U27",
+      "nombre": "LECOQ KIDS"
+    },
+    {
+      "codigo": "U28",
+      "nombre": "CROCS KIDS US"
+    },
+    {
+      "codigo": "U29",
+      "nombre": "OLYMPIKUS KIDS"
+    },
+    {
+      "codigo": "U30",
+      "nombre": "RIDER KIDS"
+    },
+    {
+      "codigo": "U31",
+      "nombre": "HAVAIANAS KIDS"
+    },
+    {
+      "codigo": "U32",
+      "nombre": "FOOTY KIDS"
+    },
+    {
+      "codigo": "U33",
+      "nombre": "KAPPA KIDS"
+    },
+    {
+      "codigo": "U34",
+      "nombre": "DIPORTTO KIDS"
+    },
+    {
+      "codigo": "U35",
+      "nombre": "JAGUAR KIDS"
+    },
+    {
+      "codigo": "U36",
+      "nombre": "DAVOR KIDS"
+    },
+    {
+      "codigo": "U37",
+      "nombre": "LA GEAR KIDS"
+    },
+    {
+      "codigo": "U38",
+      "nombre": "AVIA KIDS"
+    },
+    {
+      "codigo": "U39",
+      "nombre": "HEAD KIDS"
+    },
+    {
+      "codigo": "U4",
+      "nombre": "UMBRO 4"
+    },
+    {
+      "codigo": "V",
+      "nombre": "TALLES BOTINES AMERICANOS"
+    },
+    {
+      "codigo": "V1",
+      "nombre": "TALLES BOTINES AMERICANOS DISC."
+    },
+    {
+      "codigo": "V10",
+      "nombre": "PUMA JR"
+    },
+    {
+      "codigo": "V13",
+      "nombre": "NIKE JR US"
+    },
+    {
+      "codigo": "V18",
+      "nombre": "CONVERSE JR US"
+    },
+    {
+      "codigo": "V19",
+      "nombre": "NEW BALANCE JR US"
+    },
+    {
+      "codigo": "V22",
+      "nombre": "ADDNICE JR"
+    },
+    {
+      "codigo": "V23",
+      "nombre": "MARVEL JR"
+    },
+    {
+      "codigo": "V24",
+      "nombre": "ATOMIK JR"
+    },
+    {
+      "codigo": "V25",
+      "nombre": "LECOQ JR"
+    },
+    {
+      "codigo": "V39",
+      "nombre": "HEAD JR"
+    },
+    {
+      "codigo": "W",
+      "nombre": "TALLES BOTINES EUROPEOS CHICOS"
+    },
+    {
+      "codigo": "W1",
+      "nombre": "TALLES BOTINES EUROPEOS CHICOS DISC"
+    },
+    {
+      "codigo": "X",
+      "nombre": "TALLES BOTINES EUROPEOS"
+    },
+    {
+      "codigo": "X1",
+      "nombre": "TALLES BOTINES EUROPEOS DISC"
+    },
+    {
+      "codigo": "Y",
+      "nombre": "TALLES CALZADO"
+    },
+    {
+      "codigo": "Z",
+      "nombre": "Discontinuo"
+    },
+    {
+      "codigo": "ZZ",
+      "nombre": "MISCELANEOS"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultados de la Consulta</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0f8ff; /* Azul claro */
+            color: #333; /* Texto oscuro */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+
+        #results-container {
+            width: 100%;
+            max-width: 800px;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            text-align: center; /* Añadido para centrar el contenido */
+        }
+
+        h1 {
+            color: #2c3e50; /* Azul oscuro para el encabezado principal */
+            margin-bottom: 30px; /* Agregado para separar el título del formulario */
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+
+        th, td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        a {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #3498db;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+
+        a:hover {
+            background-color: #2980b9;
+        }
+    </style>
+</head>
+<body>
+    <div id="results-container">
+        <h1>Resultados de la Consulta</h1>
+        <table>
+            <tr>
+                <th>Articulo</th>
+                <th>Codigo</th>
+                <th>PrecioDirecto</th>
+                <th>ListaDePrecio</th>
+            </tr>
+            {% for row in data.itertuples() %}
+                <tr>
+                    <td>{{ row[1] }}</td>
+                    <td>{{ row[2] }}</td>
+                    <td>{{ row[3] }}</td>
+                    <td>{{ row[4] }}</td>
+                    <!-- Agrega más campos según la estructura de tus datos -->
+                </tr>
+            {% endfor %}
+        </table>
+        <div id="back-to-home">
+            <a href="/">Regresar a Inicio</a>
+        </div>
+        <br>
+        <a href="{{ url_for('descargar_resultado', filename=excel_filename) }}">Descargar resultados en Excel</a>
+    </div>
+    
+</body>
+</html>

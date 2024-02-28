@@ -1,0 +1,44 @@
+{
+  "opciones": [
+    {
+      "codigo": "000",
+      "nombre": "Multicolor/ Especial"
+    },
+    {
+      "codigo": "010",
+      "nombre": "Blancos"
+    },
+    {
+      "codigo": "020",
+      "nombre": "Negros"
+    },
+    {
+      "codigo": "030",
+      "nombre": "Azules"
+    },
+    {
+      "codigo": "040",
+      "nombre": "Amarillos"
+    },
+    {
+      "codigo": "050",
+      "nombre": "Verdes"
+    },
+    {
+      "codigo": "060",
+      "nombre": "Grises"
+    },
+    {
+      "codigo": "070",
+      "nombre": "Rosas"
+    },
+    {
+      "codigo": "080",
+      "nombre": "Rojos"
+    },
+    {
+      "codigo": "090",
+      "nombre": "Violetas"
+    }
+  ]
+}

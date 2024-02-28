@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alta de Valores</title>
+    
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0f8ff; /* Azul claro */
+            color: #333; /* Texto oscuro */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+
+        #form-container {
+            width: 100%;
+            max-width: 600px;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            text-align: center; /* Añadido para centrar el contenido */
+        }
+
+        h1 {
+            color: #2c3e50; /* Azul oscuro para el encabezado principal */
+            margin-bottom: 30px; /* Agregado para separar el título del formulario */
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+            color: #555;
+        }
+
+        input, select {
+            width: calc(100% - 22px);
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #3498db;
+            color: #fff;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            /* display: block; Eliminado para que el botón siga el flujo del documento */
+            margin: 20px 0; /* Añadido espacio alrededor del botón */
+        }
+
+        button:hover {
+            background-color: #2980b9;
+        }
+
+        .plan-container {
+            border: 1px solid #ddd;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        .plan-container h3 {
+            color: #2c3e50; /* Azul oscuro para el título del plan */
+        }
+
+        #back-to-home a {
+            color: #3498db;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        #back-to-home a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="form-container">
+
+        <h1>Alta de Valores</h1>
+
+        <form method="POST" action="/realizar_post">
+
+            <!-- Base de Datos -->
+            <label for="base_de_datos">Base de Datos:</label>
+            <select name="base_de_datos" required>
+                <option value="DEPOFORT">DEPOFORT</option>
+                <option value="DEPOSEVN">DEPOSEVN</option>
+            </select>
+
+            <!-- Campos principales -->
+            <label for="codigo">Código:</label>
+            <input type="text" name="codigo" required><br><br>
+
+            <label for="descripcion">Descripción:</label>
+            <input type="text" name="descripcion" required><br><br>                  
+
+            <label for="tipo">Tipo:</label>
+            <select name="tipo" required>
+                <option value="1">Moneda Local</option>
+                <option value="2">Moneda Extranjera</option>
+                <option value="3">Tarjeta de Crédito/Débito</option>
+                <option value="4">Cheque de Terceros</option>
+                <option value="5">Cheque Propio</option>
+                <option value="6">Pagaré</option>
+                <option value="7">Cuenta Corriente</option>
+                <option value="8">Ticket</option>
+                <option value="9">Vale de Cambio</option>
+                <option value="10">Pago Electrónico</option>
+                <option value="11">Cuenta Bancaria</option>
+                <option value="12">Ajuste de Cupones</option>
+            </select><br><br>        
+
+            <label for="simbolo_monetario">Símbolo Monetario:</label>
+            <select name="simbolo_monetario" required>
+                <option value="PESOS">PESOS</option>
+                <option value="DOLAR">DOLAR</option>
+            </select><br><br>    
+
+            <label for="grupo">Grupo:</label>
+            <select name="grupo" id="Grupo" required>
+                <option value="VPER">VPER</option>
+                <option value="TB">TB</option>
+                <option value="TARJ">TARJ</option>
+                <option value="QR">QR</option>
+                <option value="PESOS">PESOS</option>
+                <option value="MODO">MODO</option>
+                <option value="GVV">GVV</option>
+                <option value="GIFT">GIFT</option>
+                <option value="DOLAR">DOLAR</option>
+                <option value="CRED">CRED</option>
+                <option value="CH">CH</option>
+                <option value="C">C</option>
+                <option value="BNAQR">BNAQR</option>
+            </select><br><br>        
+
+            <!-- Detalles de Agrupublidetalle -->
+            
+            <label for="operadora_tarjeta">Operadora de Tarjeta:</label>
+            <select name="operadora_tarjeta" required>
+                <option value="ALTOS">ALTOS</option>
+                <option value="AMERICANEXPRESS">AMERICANEXPRESS</option>
+                <option value="ARGENCARD">ARGENCARD</option>
+                <option value="AZUL">AZUL</option>
+                <option value="C&APRIVATELABEL">C&APRIVATELABEL</option>
+                <option value="CABAL">CABAL</option>
+                <option value="CARTAFRANCA">CARTAFRANCA</option>
+                <option value="CIAFINANCIERA">CIAFINANCIERA</option>
+                <option value="CMR">CMR</option>
+                <option value="CONFINA">CONFINA</option>
+                <option value="CORDOBESA">CORDOBESA</option>
+                <option value="CREDENCIAL">CREDENCIAL</option>
+                <option value="CREDICRED">CREDICRED</option>
+                <option value="CUENTADNI">CUENTADNI</option>
+                <option value="DINERS">DINERS</option>
+                <option value="ITALCRED">ITALCRED</option>
+                <option value="KADICARD">KADICARD</option>
+                <option value="LIDER">LIDER</option>
+                <option value="MAESTRO">MAESTRO</option>
+                <option value="MASTERCARD">MASTERCARD</option>
+                <option value="MENDOZAPLAZASHO">MENDOZAPLAZASHO</option>
+                <option value="MIRA">MIRA</option>
+                <option value="MUSIMUNDO">MUSIMUNDO</option>
+                <option value="NACION">NACION</option>
+                <option value="NARANJA">NARANJA</option>
+                <option value="NEVADA">NEVADA</option>
+                <option value="PROVENCRED">PROVENCRED</option>
+                <option value="TARJETADATA2000">TARJETADATA2000</option>
+                <option value="VISA">VISA</option>
+                <option value="VISAELECTRON">VISAELECTRON</option>
+            </select><br><br>
+            
+            <label for="tipo_tarjeta">Tipo de Tarjeta:</label>
+            <select name="tipo_tarjeta" required>
+                <option value="C">Crédito</option>
+                <option value="D">Débito</option>
+            </select><br><br>
+
+            <!-- Detalles de Planes -->
+            <h2>Detalles de Planes</h2>
+
+            <!-- Primer plan -->
+            <div class="plan-container">
+                <h3>Plan 1</h3>
+    
+                <label for="cuotas_plan_1">Cuotas Plan 1:</label>
+                <input type="number" name="cuotas_plan_1"><br><br>
+    
+                <label for="recargo_plan_1">Recargo Plan 1:</label>
+                <input type="text" name="recargo_plan_1" pattern="[0-9]+(\.[0-9]{1,2})?" title="Ingrese un número válido"><br><br>
+    
+            </div>
+    
+            <!-- Segundo plan -->
+            <div class="plan-container">
+                <h3>Plan 2</h3>
+    
+                <label for="cuotas_plan_2">Cuotas Plan 2:</label>
+                <input type="number" name="cuotas_plan_2"><br><br>    
+                
+                <label for="recargo_plan_2">Recargo Plan 2:</label>
+                <input type="text" name="recargo_plan_2" pattern="[0-9]+(\.[0-9]{1,2})?" title="Ingrese un número válido"><br><br>
+    
+            </div>
+            <div class="plan-container">
+                <h3>Plan 3</h3>
+    
+                  
+                            
+                    <label for="cuotas_plan_3">Cuotas Plan 3:</label>
+                    <input type="number" name="cuotas_plan_3"><br><br>
+            
+                    
+            
+                    <label for="recargo_plan_3">Recargo Plan 3:</label>
+                    <input type="text" name="recargo_plan_3" pattern="[0-9]+(\.[0-9]{1,2})?" title="Ingrese un número válido"><br><br>
+            
+                   
+                </div>
+
+
+                <div class="plan-container">
+                    <h3>Plan 4</h3>
+        
+                      
+                                
+                        <label for="cuotas_plan_4">Cuotas Plan 4:</label>
+                        <input type="number" name="cuotas_plan_4"><br><br>
+                
+                       
+                        <label for="recargo_plan_4">Recargo Plan 4:</label>
+                        <input type="text" name="recargo_plan_4" pattern="[0-9]+(\.[0-9]{1,2})?" title="Ingrese un número válido"><br><br>
+                
+                    </div>
+
+
+                    <div class="plan-container">
+                        <h3>Plan 5</h3>
+            
+                          
+                                    
+                            <label for="cuotas_plan_5">Cuotas Plan 5:</label>
+                            <input type="number" name="cuotas_plan_5"><br><br>
+                    
+                            <label for="recargo_plan_5">Recargo Plan 5:</label>
+                            <input type="text" name="recargo_plan_5" pattern="[0-9]+(\.[0-9]{1,2})?" title="Ingrese un número válido"><br><br>
+                    
+                        </div>
+
+                    <div class="plan-container">
+                            <h3>Plan 6</h3>
+                
+                              
+                                        
+                                <label for="cuotas_plan_6">Cuotas Plan 6:</label>
+                                <input type="number" name="cuotas_plan_6"><br><br>                        
+                        
+                                <label for="recargo_plan_6">Recargo Plan 6:</label>
+                                <input type="text" name="recargo_plan_6" pattern="[0-9]+(\.[0-9]{1,2})?" title="Ingrese un número válido"><br><br>
+                        
+                     
+                         </div>   
+
+                    <div class="plan-container">
+                            <h3>Plan 12</h3>
+                
+                              
+                                        
+                                <label for="cuotas_plan_12">Cuotas Plan 12 :</label>
+                                <input type="number" name="cuotas_plan_12"><br><br>
+                        
+                                <label for="recargo_plan_12">Recargo Plan 12:</label>
+                                <input type="text" name="recargo_plan_12" pattern="[0-9]+(\.[0-9]{1,2})?" title="Ingrese un número válido"><br><br>
+                        
+                    </div>
+    
+            <!-- Planes adicionales... -->
+    
+            <!-- Añade más planes si es necesario -->
+    
+            <script>
+                // Función para actualizar el campo "Agrupamiento Detalle" según la opción seleccionada en "Agrupamiento"
+                function actualizarAgrupamientoDetalle() {
+                    var Grupo = document.getElementById('Grupo').value;
+                    var agrupamientoDetalleInput = document.getElementById('agrupamiento_detalle');
+            
+                    // Mapeo de agrupamientos a sus descripciones asociadas
+                    var descripcionesAsociadas = {
+                        'VPER': 'Venta Personal',
+                        'TB': 'Transferencias Bancarias',
+                        'TARJ': 'TARJETAS',
+                        'QR': 'QR',
+                        'PESOS': 'PESOS',
+                        'MODO': 'MODO',
+                        'GVV': 'GV Virtual',
+                        'GIFT': 'Gift Card',
+                        'DOLAR': 'DOLARES',
+                        'CRED': 'Creditos Personales',
+                        'CH': 'CHEQUES',
+                        'C': 'Cuenta Corriente',
+                        'BNAQR': 'BNAQR'
+                    };
+            
+                    // Actualizar el valor del campo "Agrupamiento Detalle" según la opción seleccionada en "Agrupamiento"
+                    agrupamientoDetalleInput.value = descripcionesAsociadas[Grupo] || '';
+                }
+            
+                // Agregar un event listener para el cambio en el campo "Agrupamiento"
+                document.getElementById('Grupo').addEventListener('change', actualizarAgrupamientoDetalle);
+            
+                // Llamar a la función inicialmente para establecer el valor predeterminado
+                console.log("Valor de Grupo:", Grupo);
+                actualizarAgrupamientoDetalle();
+    
+                document.querySelector('form').addEventListener('submit', function (event) {
+                    event.preventDefault();
+    
+                    // Recopilar datos del formulario
+                    var formData = new FormData(event.target);
+                    var jsonData = {};
+    
+                    formData.forEach(function (value, key) {
+                        jsonData[key] = value;
+                    });
+    
+                    // Realizar la solicitud POST a la API
+                    fetch('/realizar_post', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json'
+                        },
+                        body: JSON.stringify(jsonData)
+                    })
+                    .then(response => response.json())
+                    .then(data => {
+                        console.log('Success:', data);
+                        // Aquí puedes manejar la respuesta, como redireccionar o mostrar un mensaje al usuario
+                    })
+                    .catch(error => {
+                        console.error('Error:', error);
+                        // Aquí puedes manejar errores, como mostrar un mensaje de error al usuario
+                    });
+                });
+            </script>
+    
+            <button type="submit">Guardar</button>
+        </form>
+    
+        <div id="back-to-home">
+            <a href="/">Regresar a Inicio</a>
+        </div>
+    
+    </div>
+    
+</body>
+</html>

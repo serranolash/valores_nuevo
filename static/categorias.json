@@ -1,0 +1,164 @@
+{
+  "opciones": [
+    {
+      "codigo": "C\u00f3digo",
+      "nombre": "Descripci\u00f3n"
+    },
+    {
+      "codigo": "0",
+      "nombre": "Prendas Hombre"
+    },
+    {
+      "codigo": "1",
+      "nombre": "Training"
+    },
+    {
+      "codigo": "10",
+      "nombre": "Action Sport"
+    },
+    {
+      "codigo": "100",
+      "nombre": "promocion"
+    },
+    {
+      "codigo": "101",
+      "nombre": "promocion"
+    },
+    {
+      "codigo": "11",
+      "nombre": "Urban"
+    },
+    {
+      "codigo": "12",
+      "nombre": "Sportswear"
+    },
+    {
+      "codigo": "13",
+      "nombre": "Hockey"
+    },
+    {
+      "codigo": "14",
+      "nombre": "Volley"
+    },
+    {
+      "codigo": "15",
+      "nombre": "Skateboarding"
+    },
+    {
+      "codigo": "16",
+      "nombre": "Rugby"
+    },
+    {
+      "codigo": "17",
+      "nombre": "Generico"
+    },
+    {
+      "codigo": "18",
+      "nombre": "Basketball"
+    },
+    {
+      "codigo": "19",
+      "nombre": "Handball"
+    },
+    {
+      "codigo": "2",
+      "nombre": "Futbol"
+    },
+    {
+      "codigo": "20",
+      "nombre": "Swim"
+    },
+    {
+      "codigo": "21",
+      "nombre": "Athletics"
+    },
+    {
+      "codigo": "22",
+      "nombre": "Ojotas"
+    },
+    {
+      "codigo": "23",
+      "nombre": "Classic"
+    },
+    {
+      "codigo": "24",
+      "nombre": "Dance"
+    },
+    {
+      "codigo": "25",
+      "nombre": "Studio"
+    },
+    {
+      "codigo": "26",
+      "nombre": "Yoga"
+    },
+    {
+      "codigo": "27",
+      "nombre": "GIFT VOUCHER"
+    },
+    {
+      "codigo": "28",
+      "nombre": "Motosport"
+    },
+    {
+      "codigo": "29",
+      "nombre": "Colegial"
+    },
+    {
+      "codigo": "3",
+      "nombre": "Indoor"
+    },
+    {
+      "codigo": "30",
+      "nombre": "Performance"
+    },
+    {
+      "codigo": "31",
+      "nombre": "Boxeo"
+    },
+    {
+      "codigo": "32",
+      "nombre": "Ping Pong"
+    },
+    {
+      "codigo": "34",
+      "nombre": "Paddle"
+    },
+    {
+      "codigo": "38",
+      "nombre": "Mochilas"
+    },
+    {
+      "codigo": "39",
+      "nombre": "KOSSOK"
+    },
+    {
+      "codigo": "4",
+      "nombre": "Outdoor"
+    },
+    {
+      "codigo": "40",
+      "nombre": "Accesorios"
+    },
+    {
+      "codigo": "5",
+      "nombre": "Tennis"
+    },
+    {
+      "codigo": "6",
+      "nombre": "Originals"
+    },
+    {
+      "codigo": "7",
+      "nombre": "Neo"
+    },
+    {
+      "codigo": "8",
+      "nombre": "Running"
+    },
+    {
+      "codigo": "9",
+      "nombre": "Trekking"
+    }
+  ]
+}

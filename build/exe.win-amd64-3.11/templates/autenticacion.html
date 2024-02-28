@@ -1,0 +1,18 @@
+<!-- autenticacion.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autenticación</title>
+</head>
+<body>
+    <h1>Autenticación</h1>
+    <form method="POST" action="{{ url_for('autenticar') }}">
+        {{ form.hidden_tag() }}
+        <label for="password">Contraseña:</label>
+        {{ form.password(class="form-control") }}
+        {{ form.submit(class="btn btn-primary") }}
+    </form>
+</body>
+</html>

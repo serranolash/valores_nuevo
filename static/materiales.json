@@ -1,0 +1,180 @@
+{
+  "opciones": [
+    {
+      "codigo": "Código",
+      "nombre": "Descripción"
+    },
+    {
+      "codigo": "1",
+      "nombre": "Hombre"
+    },
+    {
+      "codigo": "2",
+      "nombre": "Mujer"
+    },
+    {
+      "codigo": "3",
+      "nombre": "Unisex"
+    },
+    {
+      "codigo": "4",
+      "nombre": "Niños"
+    },
+    {
+      "codigo": "ACOS",
+      "nombre": "ARTICULOS DE COSMETICA"
+    },
+    {
+      "codigo": "AD",
+      "nombre": "ARTICULOS DEPORTIVOS"
+    },
+    {
+      "codigo": "B20",
+      "nombre": "BOTINERO"
+    },
+    {
+      "codigo": "BOX",
+      "nombre": "BOXEO"
+    },
+    {
+      "codigo": "BS",
+      "nombre": "BASQUET"
+    },
+    {
+      "codigo": "C",
+      "nombre": "CHICOS"
+    },
+    {
+      "codigo": "C4",
+      "nombre": "CANAL 4"
+    },
+    {
+      "codigo": "D",
+      "nombre": "DISCONTINUO"
+    },
+    {
+      "codigo": "F-FG",
+      "nombre": "FUTBOL CAMPO"
+    },
+    {
+      "codigo": "F-ID",
+      "nombre": "FUTBOL SALA"
+    },
+    {
+      "codigo": "F-TF",
+      "nombre": "FUTBOL PAPI"
+    },
+    {
+      "codigo": "FG",
+      "nombre": "FUTBOL CAMPO"
+    },
+    {
+      "codigo": "FUT",
+      "nombre": "FUTBOL"
+    },
+    {
+      "codigo": "GOLF",
+      "nombre": "ARTICULOS DE GOLF"
+    },
+    {
+      "codigo": "HAN",
+      "nombre": "HANDBALL"
+    },
+    {
+      "codigo": "HCK",
+      "nombre": "HOCKEY"
+    },
+    {
+      "codigo": "ID",
+      "nombre": "FUTBOL SALA"
+    },
+    {
+      "codigo": "L",
+      "nombre": "L"
+    },
+    {
+      "codigo": "M",
+      "nombre": "Nombre Predeterminado"
+    },
+    {
+      "codigo": "MD",
+      "nombre": "PRODUCTOS DE MODA"
+    },
+    {
+      "codigo": "MOT",
+      "nombre": "MOTOSPORT"
+    },
+    {
+      "codigo": "N",
+      "nombre": "UNICO"
+    },
+    {
+      "codigo": "NAT",
+      "nombre": "NATACION"
+    },
+    {
+      "codigo": "OJ",
+      "nombre": "OJOTAS"
+    },
+    {
+      "codigo": "ORI",
+      "nombre": "ORIGINALS"
+    },
+    {
+      "codigo": "OUT",
+      "nombre": "PRODUCTOS OUTDOOR"
+    },
+    {
+      "codigo": "PAD",
+      "nombre": "PADDLE"
+    },
+    {
+      "codigo": "PNG",
+      "nombre": "PING PONG"
+    },
+    {
+      "codigo": "RNG",
+      "nombre": "RUNNING-TRAINING-FITNESS"
+    },
+    {
+      "codigo": "RUG",
+      "nombre": "RUGBY"
+    },
+    {
+      "codigo": "S",
+      "nombre": "PARES MANCHADOS"
+    },
+    {
+      "codigo": "SKT",
+      "nombre": "SKATEBOARDING"
+    },
+    {
+      "codigo": "TF",
+      "nombre": "FUTBOL PAPI"
+    },
+    {
+      "codigo": "TNS",
+      "nombre": "TENNIS"
+    },
+    {
+      "codigo": "VOL",
+      "nombre": "VOLLEY"
+    },
+    {
+      "codigo": "VRS",
+      "nombre": "VARIOS"
+    },
+    {
+      "codigo": "W",
+      "nombre": "MUJER"
+    },
+    {
+      "codigo": "Y",
+      "nombre": "BEBE"
+    },
+    {
+      "codigo": "Z",
+      "nombre": "VOUCHER"
+    }
+  ]
+}

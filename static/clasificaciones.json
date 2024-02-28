@@ -1,0 +1,688 @@
+{
+  "opciones": [
+    {
+      "codigo": "C\u00f3digo",
+      "nombre": "Descripci\u00f3n"
+    },
+    {
+      "codigo": "1",
+      "nombre": "Adidas"
+    },
+    {
+      "codigo": "10",
+      "nombre": "Hydro"
+    },
+    {
+      "codigo": "100",
+      "nombre": "Gift Voucher"
+    },
+    {
+      "codigo": "101",
+      "nombre": "HUMMEL"
+    },
+    {
+      "codigo": "102",
+      "nombre": "IL OSSSO"
+    },
+    {
+      "codigo": "108",
+      "nombre": "361"
+    },
+    {
+      "codigo": "109",
+      "nombre": "DISNEY"
+    },
+    {
+      "codigo": "11",
+      "nombre": "Marvel"
+    },
+    {
+      "codigo": "110",
+      "nombre": "FOOTY"
+    },
+    {
+      "codigo": "111",
+      "nombre": "ODEA"
+    },
+    {
+      "codigo": "112",
+      "nombre": "BEWE"
+    },
+    {
+      "codigo": "113",
+      "nombre": "BRONX"
+    },
+    {
+      "codigo": "114",
+      "nombre": "LACOSTE"
+    },
+    {
+      "codigo": "115",
+      "nombre": "ENERGY"
+    },
+    {
+      "codigo": "117",
+      "nombre": "ALTHON"
+    },
+    {
+      "codigo": "118",
+      "nombre": "GOLD"
+    },
+    {
+      "codigo": "119",
+      "nombre": "BODYTERM"
+    },
+    {
+      "codigo": "12",
+      "nombre": "Reef"
+    },
+    {
+      "codigo": "121",
+      "nombre": "STARKE"
+    },
+    {
+      "codigo": "122",
+      "nombre": "NASSAU"
+    },
+    {
+      "codigo": "123",
+      "nombre": "LYON"
+    },
+    {
+      "codigo": "124",
+      "nombre": "REVOLVER"
+    },
+    {
+      "codigo": "125",
+      "nombre": "GOLD"
+    },
+    {
+      "codigo": "126",
+      "nombre": "DOFEN"
+    },
+    {
+      "codigo": "127",
+      "nombre": "PENGUIN"
+    },
+    {
+      "codigo": "128",
+      "nombre": "BODYTHERM"
+    },
+    {
+      "codigo": "129",
+      "nombre": "EVERLAST"
+    },
+    {
+      "codigo": "13",
+      "nombre": "Reebok"
+    },
+    {
+      "codigo": "131",
+      "nombre": "SAINT"
+    },
+    {
+      "codigo": "132",
+      "nombre": "PRAHIERAS"
+    },
+    {
+      "codigo": "133",
+      "nombre": "PONY"
+    },
+    {
+      "codigo": "134",
+      "nombre": "SYSTEM"
+    },
+    {
+      "codigo": "135",
+      "nombre": "VKCYCLER"
+    },
+    {
+      "codigo": "136",
+      "nombre": "KALIMA"
+    },
+    {
+      "codigo": "137",
+      "nombre": "SIMBRA"
+    },
+    {
+      "codigo": "138",
+      "nombre": "PRESTIGE"
+    },
+    {
+      "codigo": "139",
+      "nombre": "TDP"
+    },
+    {
+      "codigo": "14",
+      "nombre": "Roxy"
+    },
+    {
+      "codigo": "140",
+      "nombre": "ATHIX"
+    },
+    {
+      "codigo": "141",
+      "nombre": "KAGIVA"
+    },
+    {
+      "codigo": "142",
+      "nombre": "Collab"
+    },
+    {
+      "codigo": "143",
+      "nombre": "Spirit"
+    },
+    {
+      "codigo": "144",
+      "nombre": "COVER"
+    },
+    {
+      "codigo": "145",
+      "nombre": "IMPULSAR"
+    },
+    {
+      "codigo": "146",
+      "nombre": "Hi-tec"
+    },
+    {
+      "codigo": "147",
+      "nombre": "Vairo"
+    },
+    {
+      "codigo": "148",
+      "nombre": "MERCO"
+    },
+    {
+      "codigo": "149",
+      "nombre": "BULLPADEL"
+    },
+    {
+      "codigo": "15",
+      "nombre": "Crocs"
+    },
+    {
+      "codigo": "16",
+      "nombre": "UNDER ARMOUR"
+    },
+    {
+      "codigo": "17",
+      "nombre": "Fila"
+    },
+    {
+      "codigo": "178",
+      "nombre": "LA GEAR"
+    },
+    {
+      "codigo": "18",
+      "nombre": "Asics"
+    },
+    {
+      "codigo": "181",
+      "nombre": "STRIKER"
+    },
+    {
+      "codigo": "187",
+      "nombre": "DUNLOP"
+    },
+    {
+      "codigo": "189",
+      "nombre": "SIXZERO"
+    },
+    {
+      "codigo": "19",
+      "nombre": "Beatboss"
+    },
+    {
+      "codigo": "2",
+      "nombre": "TK"
+    },
+    {
+      "codigo": "20",
+      "nombre": "Umbro"
+    },
+    {
+      "codigo": "21",
+      "nombre": "Gilbert"
+    },
+    {
+      "codigo": "214",
+      "nombre": "Errea"
+    },
+    {
+      "codigo": "22",
+      "nombre": "Spalding"
+    },
+    {
+      "codigo": "23",
+      "nombre": "Top Force"
+    },
+    {
+      "codigo": "24",
+      "nombre": "Arena"
+    },
+    {
+      "codigo": "247",
+      "nombre": "Bestway"
+    },
+    {
+      "codigo": "25",
+      "nombre": "Solanye"
+    },
+    {
+      "codigo": "254",
+      "nombre": "MERCO"
+    },
+    {
+      "codigo": "256",
+      "nombre": "STAR SPORT"
+    },
+    {
+      "codigo": "26",
+      "nombre": "Converse"
+    },
+    {
+      "codigo": "27",
+      "nombre": "Olympikus"
+    },
+    {
+      "codigo": "28",
+      "nombre": "Topper"
+    },
+    {
+      "codigo": "285",
+      "nombre": "Joma"
+    },
+    {
+      "codigo": "29",
+      "nombre": "Sensei"
+    },
+    {
+      "codigo": "3",
+      "nombre": "Dc"
+    },
+    {
+      "codigo": "30",
+      "nombre": "Kappa"
+    },
+    {
+      "codigo": "302",
+      "nombre": "Herkles"
+    },
+    {
+      "codigo": "31",
+      "nombre": "Nuevo Gema"
+    },
+    {
+      "codigo": "32",
+      "nombre": "Indomito"
+    },
+    {
+      "codigo": "33",
+      "nombre": "Wabro"
+    },
+    {
+      "codigo": "34",
+      "nombre": "Jansport"
+    },
+    {
+      "codigo": "35",
+      "nombre": "Ipanema"
+    },
+    {
+      "codigo": "355",
+      "nombre": "TROWN"
+    },
+    {
+      "codigo": "36",
+      "nombre": "Reves"
+    },
+    {
+      "codigo": "37",
+      "nombre": "Flash"
+    },
+    {
+      "codigo": "38",
+      "nombre": "Procer"
+    },
+    {
+      "codigo": "39",
+      "nombre": "Lejopi"
+    },
+    {
+      "codigo": "4",
+      "nombre": "LE COQ SPORTIF"
+    },
+    {
+      "codigo": "40",
+      "nombre": "DRB"
+    },
+    {
+      "codigo": "41",
+      "nombre": "Babolat"
+    },
+    {
+      "codigo": "42",
+      "nombre": "New Project"
+    },
+    {
+      "codigo": "43",
+      "nombre": "Saucony"
+    },
+    {
+      "codigo": "44",
+      "nombre": "Atletic Service"
+    },
+    {
+      "codigo": "45",
+      "nombre": "Kossok"
+    },
+    {
+      "codigo": "46",
+      "nombre": "MItre"
+    },
+    {
+      "codigo": "47",
+      "nombre": "Speedo"
+    },
+    {
+      "codigo": "48",
+      "nombre": "Mormaii"
+    },
+    {
+      "codigo": "49",
+      "nombre": "Tryon"
+    },
+    {
+      "codigo": "5",
+      "nombre": "New Balance"
+    },
+    {
+      "codigo": "50",
+      "nombre": "Addnice"
+    },
+    {
+      "codigo": "51",
+      "nombre": "EZ- LIFE"
+    },
+    {
+      "codigo": "52",
+      "nombre": "SPEED"
+    },
+    {
+      "codigo": "520",
+      "nombre": "Slazenger"
+    },
+    {
+      "codigo": "523",
+      "nombre": "CHAMPION"
+    },
+    {
+      "codigo": "53",
+      "nombre": "Konna"
+    },
+    {
+      "codigo": "54",
+      "nombre": "Uhlsport"
+    },
+    {
+      "codigo": "55",
+      "nombre": "Hang Loose"
+    },
+    {
+      "codigo": "555",
+      "nombre": "VOLCOM"
+    },
+    {
+      "codigo": "556",
+      "nombre": "CIRCA"
+    },
+    {
+      "codigo": "56",
+      "nombre": "NEXT SEASON"
+    },
+    {
+      "codigo": "57",
+      "nombre": "ALL SAINTS"
+    },
+    {
+      "codigo": "58",
+      "nombre": "GRENDENE"
+    },
+    {
+      "codigo": "589",
+      "nombre": "SPORTO"
+    },
+    {
+      "codigo": "59",
+      "nombre": "Goalty"
+    },
+    {
+      "codigo": "6",
+      "nombre": "Reusch"
+    },
+    {
+      "codigo": "60",
+      "nombre": "Rider"
+    },
+    {
+      "codigo": "61",
+      "nombre": "HAVAIANAS"
+    },
+    {
+      "codigo": "62",
+      "nombre": "Back Up Fun"
+    },
+    {
+      "codigo": "64",
+      "nombre": "GIVOVA"
+    },
+    {
+      "codigo": "65",
+      "nombre": "NIKE"
+    },
+    {
+      "codigo": "655",
+      "nombre": "Jack lee"
+    },
+    {
+      "codigo": "66",
+      "nombre": "Atomik"
+    },
+    {
+      "codigo": "67",
+      "nombre": "PENN"
+    },
+    {
+      "codigo": "69",
+      "nombre": "PAPELERA FRANCESA S.A."
+    },
+    {
+      "codigo": "7",
+      "nombre": "Puma"
+    },
+    {
+      "codigo": "71",
+      "nombre": "JOHN FOOS"
+    },
+    {
+      "codigo": "72",
+      "nombre": "Qix"
+    },
+    {
+      "codigo": "73",
+      "nombre": "BRAKU"
+    },
+    {
+      "codigo": "74",
+      "nombre": "MIR"
+    },
+    {
+      "codigo": "75",
+      "nombre": "TWS"
+    },
+    {
+      "codigo": "76",
+      "nombre": "WILSON"
+    },
+    {
+      "codigo": "77",
+      "nombre": "GRAYS"
+    },
+    {
+      "codigo": "78",
+      "nombre": "JOMA"
+    },
+    {
+      "codigo": "784",
+      "nombre": "Diadora"
+    },
+    {
+      "codigo": "79",
+      "nombre": "ALPINE SKATE"
+    },
+    {
+      "codigo": "798",
+      "nombre": "EFFORT"
+    },
+    {
+      "codigo": "8",
+      "nombre": "Quicksilver"
+    },
+    {
+      "codigo": "80",
+      "nombre": "DISCOVERY"
+    },
+    {
+      "codigo": "81",
+      "nombre": "S&T"
+    },
+    {
+      "codigo": "82",
+      "nombre": "AVIA"
+    },
+    {
+      "codigo": "83",
+      "nombre": "PENALTY"
+    },
+    {
+      "codigo": "84",
+      "nombre": "CONTIGO"
+    },
+    {
+      "codigo": "85",
+      "nombre": "SORMA"
+    },
+    {
+      "codigo": "86",
+      "nombre": "CAPSLAB"
+    },
+    {
+      "codigo": "87",
+      "nombre": "CARTAGO"
+    },
+    {
+      "codigo": "88",
+      "nombre": "Rider"
+    },
+    {
+      "codigo": "888",
+      "nombre": "Fox socks"
+    },
+    {
+      "codigo": "889",
+      "nombre": "Tifox"
+    },
+    {
+      "codigo": "89",
+      "nombre": "HEAD"
+    },
+    {
+      "codigo": "890",
+      "nombre": "Kadur"
+    },
+    {
+      "codigo": "891",
+      "nombre": "Quckly"
+    },
+    {
+      "codigo": "897",
+      "nombre": "RANGO"
+    },
+    {
+      "codigo": "898",
+      "nombre": "Vilas"
+    },
+    {
+      "codigo": "9",
+      "nombre": "Vans"
+    },
+    {
+      "codigo": "90",
+      "nombre": "SHOTER SHOES MASTER"
+    },
+    {
+      "codigo": "91",
+      "nombre": "MDQ"
+    },
+    {
+      "codigo": "913",
+      "nombre": "VALKYMIA"
+    },
+    {
+      "codigo": "92",
+      "nombre": "PROYEC"
+    },
+    {
+      "codigo": "93",
+      "nombre": "Asics"
+    },
+    {
+      "codigo": "94",
+      "nombre": "Addnice"
+    },
+    {
+      "codigo": "947",
+      "nombre": "NBA"
+    },
+    {
+      "codigo": "948",
+      "nombre": "Ipanema"
+    },
+    {
+      "codigo": "95",
+      "nombre": "GANTOS"
+    },
+    {
+      "codigo": "956",
+      "nombre": "COCA COLA"
+    },
+    {
+      "codigo": "96",
+      "nombre": "CAMDEN"
+    },
+    {
+      "codigo": "966",
+      "nombre": "STARK"
+    },
+    {
+      "codigo": "967",
+      "nombre": "CROUCH"
+    },
+    {
+      "codigo": "97",
+      "nombre": "PALTA"
+    },
+    {
+      "codigo": "98",
+      "nombre": "KIDDYLAND"
+    },
+    {
+      "codigo": "987",
+      "nombre": "ERIMA"
+    },
+    {
+      "codigo": "99",
+      "nombre": "DAVOR"
+    }
+  ]
+}
